@@ -25,7 +25,7 @@ body {
 }
 
 .heading p {
-    font-family: Poppins;
+font-family: Poppins;
 font-style: normal;
 font-weight: normal;
 font-size: 16px;
@@ -54,17 +54,16 @@ color: #404040;
 
 
 .heading .loram{
-    /* width: 39px; */
-    /* text-align: left; */
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins';
     font-style: normal;
-    font-weight: 400;
-     font-size: 16px;
-
-color: #404040;
+    font-weight: normal;
+    font-size: 16.6px;
+    line-height: 33px;
+    padding-top: 2em;
+    color: #404040;
 }
 
-.explore{
+/* .explore{
     width: 260px;
     height: 70px;
     display: flex;
@@ -78,7 +77,51 @@ border-radius: 5px;
     width: 90px;
     height: 50px;
     border: 3px solid #BA0C2F;
+} */
+.button {
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    padding: 0.8em 1.4em;
+    padding-right: 4.7em;
+    border: none;
+    color: white;
 }
+.button:before, .button:after {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    padding-top: inherit;
+    padding-bottom: inherit;
+    width: 4em;
+    content: "\2192";
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'FontAwesome', sans-serif;
+    font-size: 1.2em;
+    text-align: center;
+}
+.button:before {
+    background: #BA0C2F;
+}
+
+
+
+.button {
+    width: 20em;
+    height: 4.4em;
+    border: 3px solid #BA0C2F;
+box-sizing: border-box;
+border-radius: 6px;
+}
+.arrow {
+    background: #e2e2e2;
+}
+
+.arrow:after {
+    content: "\2192";
+}
+
 
 
 
