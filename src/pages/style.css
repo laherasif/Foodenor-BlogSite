@@ -94,7 +94,7 @@ border-radius: 5px;
     right: 0;
     padding-top: inherit;
     padding-bottom: inherit;
-    width: 4em;
+    width: 5em;
     content: "\2192";
     /* font-family: 'Poppins', sans-serif; */
     font-family: 'FontAwesome', sans-serif;
@@ -115,11 +115,15 @@ box-sizing: border-box;
 border-radius: 6px;
 }
 .arrow {
-    background: #e2e2e2;
+   
+background: #ffffff;
+color: #BA0C2F;
 }
 
 .arrow:after {
     content: "\2192";
+    
+    color: #ffffff;
 }
 
 
