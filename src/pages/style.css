@@ -12,6 +12,7 @@ body {
 
 .food section{
     width: 100%;
+    display: flex;
     overflow: hidden;
 }
 
@@ -59,25 +60,11 @@ color: #404040;
     font-weight: normal;
     font-size: 16.6px;
     line-height: 33px;
-    padding-top: 2em;
+    padding-top: 2.4em;
     color: #404040;
 }
 
-/* .explore{
-    width: 260px;
-    height: 70px;
-    display: flex;
-    justify-content: space-between;
- border: 2px solid #BA0C2F;
-box-sizing: border-box;
-border-radius: 5px;
-}
 
-.explore > .fa{
-    width: 90px;
-    height: 50px;
-    border: 3px solid #BA0C2F;
-} */
 .button {
     display: inline-block;
     font-family: 'Poppins', sans-serif;
@@ -96,7 +83,6 @@ border-radius: 5px;
     padding-bottom: inherit;
     width: 5em;
     content: "\2192";
-    /* font-family: 'Poppins', sans-serif; */
     font-family: 'FontAwesome', sans-serif;
     font-size: 1.2em;
     text-align: center;
@@ -105,25 +91,64 @@ border-radius: 5px;
     background: #BA0C2F;
 }
 
-
-
 .button {
-    width: 20em;
+    width: 90%;
     height: 4.4em;
     border: 3px solid #BA0C2F;
-box-sizing: border-box;
-border-radius: 6px;
+    box-sizing: border-box;
+    border-radius: 6px;
 }
 .arrow {
    
-background: #ffffff;
-color: #BA0C2F;
+   background: #ffffff;
+   color: #BA0C2F;
 }
 
 .arrow:after {
     content: "\2192";
     
     color: #ffffff;
+}
+
+
+.heading-logo{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.heading-logo img{
+    width: 100%;
+    height: 100%;
+}
+.heading-buttons{
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    padding-top: 3rem;
+    
+}
+
+.heading-buttons ul li {
+    list-style: none;
+    margin-bottom: 3rem;
+    
+
+}
+.heading-buttons ul li button{
+    height: 50px;
+    width: 120px;
+    font-family: 'Poppins';
+    color: #BA0C2F;
+    border-color: #BA0C2F;
+
+}
+
+.heading-buttons ul li button:hover{
+    background:none;
+    font-family: 'Poppins';
+    color: #BA0C2F;
+    border-color: #BA0C2F;
+
 }
 
 
