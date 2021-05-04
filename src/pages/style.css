@@ -1,9 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Yellowtail&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&family=Yellowtail&display=swap');
 
 
 body {
-    background: #ffffff
+    background: rgb(255 ,255 ,255) ;
 }
 .food{
     padding-top: 5rem;
@@ -23,44 +22,41 @@ body {
 .section-heading .heading{
     width: 100%;
     overflow: hidden;
+    padding-top: 2rem;
 }
 
 .heading p {
-font-family: Poppins;
-font-style: normal;
-font-weight: normal;
+    font-family: 'Poppins';
+font-weight: 400;
 font-size: 16px;
 line-height: 24px;
-/* identical to box height */
-
 letter-spacing: 0.1em;
-
+margin-top: 1rem;
 color: #404040;
 }
 
-.heading p > h2{
+.heading h2{
     
     
     font-family: 'Poppins';
     font-style: normal;
-    font-weight: 800;
-    font-size: 60px;
+    font-weight:600;
+    font-size: 50px;
     line-height: 73px;
     display: flex;
+    margin-top: -2rem;
     align-items: center;
-    text-align: center;
     
     color: #000000;    
 }
 
 
 .heading .loram{
-    font-family: 'Poppins';
     font-style: normal;
-    font-weight: normal;
-    font-size: 16.6px;
-    line-height: 33px;
-    padding-top: 2.4em;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 14.5px;
+    padding-top: 3.5em;
     color: #404040;
 }
 
@@ -69,6 +65,7 @@ color: #404040;
     display: inline-block;
     font-family: 'Poppins', sans-serif;
     position: relative;
+    font-weight: 600;
     padding: 0.8em 1.4em;
     padding-right: 4.7em;
     border: none;
@@ -81,9 +78,9 @@ color: #404040;
     right: 0;
     padding-top: inherit;
     padding-bottom: inherit;
-    width: 5em;
+    width: 4em;
     content: "\2192";
-    font-family: 'FontAwesome', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 1.2em;
     text-align: center;
 }
@@ -92,7 +89,9 @@ color: #404040;
 }
 
 .button {
-    width: 90%;
+    margin-top: 0.5rem;
+    padding-top: 1rem;
+    width: 100%;
     height: 4.4em;
     border: 3px solid #BA0C2F;
     box-sizing: border-box;
@@ -119,12 +118,13 @@ color: #404040;
 .heading-logo img{
     width: 100%;
     height: 100%;
+    padding:2rem 4rem 2rem 4rem ;
 }
 .heading-buttons{
     width: 100%;
     text-align: center;
     overflow: hidden;
-    padding-top: 3rem;
+    padding-top: 4rem;
     
 }
 
@@ -135,8 +135,9 @@ color: #404040;
 
 }
 .heading-buttons ul li button{
-    height: 50px;
-    width: 120px;
+    height: 60px;
+    width: 130px;
+    font-weight: 600;
     font-family: 'Poppins';
     color: #BA0C2F;
     border-color: #BA0C2F;
@@ -151,6 +152,60 @@ color: #404040;
 
 }
 
+.food section{
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+}
 
+.section-discover {
+    width: 100%;
+    margin-top: 6rem;
+    overflow: hidden;
+}
 
+.section-discover .discover{
+    width: 100%;
+    overflow: hidden;
+}
+.discover h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 47px;
+    line-height: 55px;
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    
+    color: #000000;
+    
+
+}
+.discover .discover-card{
+    margin-top: 3rem;
+}
+.discover .dicover-imagecard{
+    width:100%;
+    display: flex;
+}
+.dicover-imagecard .card-img-top{
+    height: 160px;
+}
+
+.dicover-imagecard .card-body .title{
+    display: flex;
+    justify-content: space-between
+}
+.card-body .title .card-title{
+    font-family: 'Yellowtail';
+    font-size: 20px;
+}
+.card-body .title .stars > span{
+    color: #FFA723;
+}
+.card-body p {
+    font-family: 'Poppins'
+}
 
