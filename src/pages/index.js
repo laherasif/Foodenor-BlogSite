@@ -8,118 +8,180 @@ export default function Home() {
     <div>
       <div className="food">
         <div className="container">
-          <div className="row">
-            <div className="col-lg-12 col-md-12">
-              <section>
-                <div className="section-heading">
 
-                  <div className="row">
-                    <div className="col-md-3">
-                      <div className="heading">
-                        <p>
-                          Sub Title
+          <section>
+            <div className="section-heading">
+
+              <div className="row">
+                <div className="col-md-3">
+                  <div className="heading">
+                    <p>
+                      Sub Title
                           </p>
-                        <h2>Heading</h2>
-                        <p className="loram">
-                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Odio congue egestas ut vitae felis, pellentesque
+                    <h2>Heading</h2>
+                    <p className="loram">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Odio congue egestas ut vitae felis, pellentesque
                       </p>
 
-                        <button className="button  arrow">Explore</button>
-
-                      </div>
-                    </div>
-                    <div className="col-md-7">
-                      <div className="heading-logo">
-                        <img src="images/FoodieNor logo design .png" alt="food_logo" />
-                      </div>
-                    </div>
-                    <div className="col-md-2">
-                      <div className="heading-buttons">
-                        <ul>
-                          <li><button type="button" className="btn btn-outline-primary">About</button></li>
-                          <li><button type="button" className="btn btn-outline-primary">Contribute</button></li>
-                          <li><button type="button" className="btn btn-outline-primary">Contact</button></li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-
-
-                </div>
-              </section>
-
-              <section>
-                <div className="section-discover">
-                  <div className="row">
-                    <div className="col-md-3">
-                      <div className="discover">
-                        <h1>
-                          Discover
-                          FoodieNor
-                        </h1>
-                        <div className="discover-card"  >
-                          <ul className="list-group " >
-                            <li className="list-group-item">Cras justo odio</li>
-                            <li className="list-group-item">Dapibus ac facilisis in</li>
-                            <li className="list-group-item">Vestibulum at eros</li>
-                          </ul>
-                        </div>
-
-
-                      </div>
-                    </div>
-                    <div className="col-md-5">
-                      <div className="dicover-imagecard card">
-                        <img className="card-img-top" src="http://placeimg.com/640/480/nature" alt="Card image cap" />
-                        <div className="card-body">
-                          <div className="title" >
-                            <h5 className="card-title ">Blog Heading</h5>
-                            <div className="stars " >
-                              <span className="fa fa-star checked"></span>
-                              <span className="fa fa-star checked"></span>
-                              <span className="fa fa-star checked"></span>
-                              <span className="fa fa-star"></span>
-                              <span className="fa fa-star"></span>
-                            </div>
-                          </div>
-
-                          <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-md-4">
-                      <div className="card">
-                        <div className="card-body">
-                          <ul id="review-card">
-                            <li>
-                            <div className="card-style">
-                              dadkasjh
-                            </div>
-                            </li>
-                            <li>
-                            <div className="card-style">
-                              dadkasjh
-                            </div>
-                            </li>
-                            <li>
-                            <div className="card-style">
-                              dadkasjh
-                            </div>
-                            </li>
-                          </ul>
-                        
-                        </div>
-                      </div>
-                    </div>
+                    <button className="button  arrow">Explore</button>
 
                   </div>
                 </div>
-              </section>
+                <div className="col-md-7">
+                  <div className="heading-logo">
+                    <img src="images/FoodieNor logo design .png" alt="food_logo" />
+                  </div>
+                </div>
+                <div className="col-md-2">
+                  <div className="heading-buttons">
+                    <ul>
+                      <li><button type="button" className="btn btn-outline-primary">About</button></li>
+                      <li><button type="button" className="btn btn-outline-primary">Contribute</button></li>
+                      <li><button type="button" className="btn btn-outline-primary">Contact</button></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
 
 
             </div>
-          </div>
+          </section>
+
+          <section>
+            <div className="section-discover">
+              <div className="row">
+                <div className="col-md-3">
+                  <div className="discover">
+                    <h1>
+                      Discover
+                      FoodieNor
+                        </h1>
+                    <div className="discovers-card">
+                      <ul>
+                        <li >Appolizer</li>
+                        <li >Main Dishes</li>
+                        <li style={{borderBottom:'none' , color:'#154200'}}>Sweet Deesert</li>
+                      </ul>
+                    </div>
+
+
+                  </div>
+                </div>
+                <div className="col-md-5">
+                  <div className="dicover-imagecard card">
+                    <img className="card-img-top" alt="logo-card" src="http://placeimg.com/640/480/nature" />
+                    <div className="card-body">
+                      <div className="title" >
+                        <h5 className="card-title ">Blog Heading</h5>
+                        <div className="stars " >
+                          <span className="fa fa-star checked"></span>
+                          <span className="fa fa-star checked"></span>
+                          <span className="fa fa-star checked"></span>
+                          <span className="fa fa-star"></span>
+                          <span className="fa fa-star"></span>
+                        </div>
+                      </div>
+
+                      <p className="card-text"> This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    
+                       <div className="explore-more">
+                         <button><i className="fa fa-long-arrow-right"></i></button>
+                         <p>Explore More</p>
+                       </div>
+                    
+                    </div>
+                  </div>
+                </div>
+                <div className="col-md-4">
+                  <div id="reviews">
+                    <div >
+                      <h2>Reviews</h2>
+                      <ul id="review-card">
+                        <li>
+                          <div className="review-data">
+                            <div className="title">
+                              <h4>Fedore</h4>
+                              <p>hellow this is</p>
+                            </div>
+                            <div className="title-star">
+                              <span className="fa fa-star checked"></span>
+                              <span className="fa fa-star checked"></span>
+                              <span className="fa fa-star checked"></span>
+                              <span className="fa fa-star"></span>
+                              <span className="fa fa-star"></span>
+
+                            </div>
+
+                          </div>
+
+                        </li>
+                        <div className="review-left">
+                          <div className="para">
+                            <p>J</p>
+
+                          </div>
+                        </div>
+                        <li>
+                          <div className="review-data">
+                            <div className="title">
+                              <h4>Fedore</h4>
+                              <p>hellow this is</p>
+                            </div>
+                            <div className="title-star">
+                              <span className="fa fa-star checked"></span>
+                              <span className="fa fa-star checked"></span>
+                              <span className="fa fa-star checked"></span>
+                              <span className="fa fa-star"></span>
+                              <span className="fa fa-star"></span>
+
+                            </div>
+
+                          </div>
+                        </li>
+                        <div id="review-Don">
+                          <div className="para">
+                            <p>J</p>
+
+                          </div>
+                        </div>
+                        <li>
+                          <div className="review-data">
+                            <div className="title">
+                              <h4>Fedore</h4>
+                              <p>hellow this is</p>
+                            </div>
+                            <div className="title-star">
+                              <span className="fa fa-star checked"></span>
+                              <span className="fa fa-star checked"></span>
+                              <span className="fa fa-star checked"></span>
+                              <span className="fa fa-star"></span>
+                              <span className="fa fa-star"></span>
+
+                            </div>
+                            <div id="review-Go">
+                          <div className="para">
+                            <p>J</p>
+
+                          </div>
+                        </div>
+
+                          </div>
+                          
+                        </li>
+                        
+                      </ul>
+
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </section>
+
+
         </div>
+
 
         <footer id="footer" >
           <div className="container">
@@ -161,9 +223,9 @@ export default function Home() {
               <div className="col-lg-4 col-md-8 col-sm-8">
                 <div id="footer__newslatter">
                   <h6>NEWSLETTER</h6>
-                  <form action="#">
+                  <form >
                     <input type="text" placeholder="Email Us" />
-                    <button type="submit" className="site-btn"><i className="fa fa-long-arrow-right"></i></button>
+                    <button className="site-btn"><i className="fa fa-long-arrow-right"></i></button>
                   </form>
                   <div id="footer__social">
                     <Link to="/" className="links"><i className="fa fa-linkedin" /></Link>

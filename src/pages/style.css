@@ -40,7 +40,7 @@ color: #404040;
     
     font-family: 'Poppins';
     font-style: normal;
-    font-weight:600;
+    font-weight:800;
     font-size: 50px;
     line-height: 73px;
     display: flex;
@@ -122,7 +122,8 @@ color: #404040;
 }
 .heading-buttons{
     width: 100%;
-    text-align: center;
+margin-right: 2rem;
+text-align: center;
     overflow: hidden;
     padding-top: 4rem;
     
@@ -134,9 +135,9 @@ color: #404040;
     
 
 }
-.heading-buttons ul li button{
+.heading-buttons ul li .btn-outline-primary{
     height: 60px;
-    width: 130px;
+    width: 120px;
     font-weight: 600;
     font-family: 'Poppins';
     color: #BA0C2F;
@@ -144,7 +145,7 @@ color: #404040;
 
 }
 
-.heading-buttons ul li button:hover{
+.heading-buttons ul li .btn-outline-primary:hover{
     background:none;
     font-family: 'Poppins';
     color: #BA0C2F;
@@ -172,7 +173,7 @@ color: #404040;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 900;
-    font-size: 47px;
+    font-size: 45px;
     line-height: 55px;
     padding-top: 10px;
     display: flex;
@@ -183,12 +184,36 @@ color: #404040;
     
 
 }
-.discover .discover-card{
+.discover .discovers-card{
     margin-top: 3rem;
+    width: 100%;
+    text-align: center;
+ 
+    padding: 1rem 4rem 2rem 1rem;
+    background: rgba(253, 145, 145, 0.1);
+  
 }
-.discover .dicover-imagecard{
-    width:100%;
+
+.discovers-card ul li{
+    list-style: none;
     display: flex;
+    color: #BA0C2F;
+    font-family: 'Poppins';
+    font-style: normal;
+    display: block;
+    font-weight: 600;
+    font-size: 16px;
+    padding-bottom: 15px;
+    margin-top: 2rem;
+    width: 100%;
+    border-bottom: 1px solid #DAD2D2;
+}
+ .dicover-imagecard{
+    width: 100%;
+    display: flex;
+    border: none;
+    background: rgba(253, 145, 145, 0.1);
+    border-radius: 8px;
 }
 .dicover-imagecard .card-img-top{
     height: 160px;
@@ -204,22 +229,268 @@ color: #404040;
 }
 .card-body .title .stars > span{
     color: #FFA723;
+    padding-left: 5px;
 }
 .card-body p {
     font-family: 'Poppins'
 }
+.card-body .explore-more{
+    width: 100%;
+    padding-top: 4.5rem;
+    display: flex;
+}
 
-
-
-#review-card li{
-    list-style: none;
-    border: 1pt solid blue;
-    height: 75px;
-    margin-bottom: 10px;
-    background: #FFFAFA;
-box-shadow: 0px 16px 40px rgba(112, 144, 176, 0.2);
+.card-body .explore-more button{
+   
+width: 50px;
+height: 38.89px;
+border: 1pt solid #BA0C2F;
+background: #BA0C2F;
+color: #ffffff;
 border-radius: 8px;
 }
+
+.card-body .explore-more p{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-left: 11px;
+    padding-top: 5px;
+    color: #BA0C2F;
+}
+
+#reviews{
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    background: rgba(253, 145, 145, 0.1);
+}
+
+#card-bodys h2{
+    font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+padding: 10px 0px 0px 10px;
+font-size: 25px;
+line-height: 39px;
+/* identical to box height */
+
+
+color: #000000;
+}
+
+#review-card{
+    padding: 0px;
+}
+
+#review-card li{
+    margin-top: 25px;
+    list-style: none;
+    background: #ffffff;
+    box-shadow: 0px 16px 40px rgba(112, 144, 176, 0.2);
+    border-radius: 8px;
+    width: 100%;
+    height: 100px;
+}
+
+
+
+#review-card .review-data{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#review-card .review-data .title{
+    padding-left: 6.5rem;
+}
+
+#review-card .review-data .title h4{
+    font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 42px;
+color: #000000;
+}
+#review-card .review-data .title p{
+    font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+display: flex;
+align-items: center;
+
+color: #404040;
+}
+
+#review-card .review-data .title-star{
+    padding: 10px;
+}
+
+#review-card .review-data .title-star span{
+
+    padding-left: 5px;
+    color: #CCCCCC;
+
+}
+
+#review-card .review-data .title-star .checked{
+    color: #FFA723;
+    padding-left: 5px;
+}
+
+
+
+
+
+
+#review-card .review-left{
+    position: absolute;
+    top:16%;
+    width: 95px;
+    height: 100px;
+    background: #902E92;
+    border-radius: 8px 0px 0px 8px;
+    
+    
+}
+#review-card .review-left .para{
+  position: absolute;
+    width: 70.01px;
+    height: 74.48px;
+    left: calc(64% - 70.01px/2 - 12px);
+    top: calc(55% - 74.48px/2 - 5.76px);
+    border-radius: 37px;
+    border: 3px solid #FFFAFA;
+    box-sizing: border-box;
+}
+
+.para p{
+    position: absolute;
+width: 29px;
+height: 75px;
+left: calc(63% - 29px/2 - 11.5px);
+top: calc(55% - 75px/2 - 5.5px);
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 50px;
+line-height: 75px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFAFA;
+}
+
+
+#review-card #review-Don{
+    position: absolute;
+    top: 44%;
+    left: 25px;
+    right: 0px;
+    width: 95px;
+    height: 100px;
+    background: #A40000;
+    border-radius: 8px 0px 0px 8px;
+    
+    
+}
+#review-card  #review-Don .para{
+   position: absolute;
+    width: 70.01px;
+    height: 74.48px;
+    left: calc(64% - 70.01px/2 - 12px);
+    top: calc(55% - 74.48px/2 - 5.76px);
+    border-radius: 37px;
+    border: 3px solid #FFFAFA;
+    box-sizing: border-box;
+}
+
+.para p{
+    position: absolute;
+width: 29px;
+height: 75px;
+left: calc(63% - 29px/2 - 11.5px);
+top: calc(55% - 75px/2 - 5.5px);
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 50px;
+line-height: 75px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFAFA;
+}
+
+#review-card #review-Go{
+    position: absolute;
+    top: 72%;
+    left: 26px;
+    right: 0px;
+    width: 95px;
+    height: 100px;
+    background: #154200;
+    border-radius: 8px 0px 0px 8px;
+    
+    
+}
+#review-card #review-Go .para{
+  position: absolute;
+    width: 70.01px;
+    height: 74.48px;
+    left: calc(64% - 70.01px/2 - 12px);
+    top: calc(55% - 74.48px/2 - 5.76px);
+    border-radius: 37px;
+    border: 3px solid #FFFAFA;
+    box-sizing: border-box;
+}
+
+.para p{
+    position: absolute;
+width: 29px;
+height: 75px;
+left: calc(63% - 29px/2 - 11.5px);
+top: calc(55% - 75px/2 - 5.5px);
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 50px;
+line-height: 75px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFAFA;
+}
+
+
+
+
+
+
+    
+
+
+
 
 
 #footer{
