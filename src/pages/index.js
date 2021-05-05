@@ -3,6 +3,7 @@ import 'fontawesome-4.7'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './style.css'
 import { Link } from 'gatsby'
+// import About from '../components/aboutus/about'
 export default function Home() {
   return (
     <div>
@@ -35,9 +36,9 @@ export default function Home() {
                 <div className="col-md-2">
                   <div className="heading-buttons">
                     <ul>
-                      <li><button type="button" className="btn btn-outline-primary">About</button></li>
-                      <li><button type="button" className="btn btn-outline-primary">Contribute</button></li>
-                      <li><button type="button" className="btn btn-outline-primary">Contact</button></li>
+                      <li><Link to="/About" className="btn btn">About</Link></li>
+                      <li><Link to="/" className="btn btn">Contribute</Link></li>
+                      <li><Link to="/" className="btn btn">Contact</Link></li>
                     </ul>
                   </div>
                 </div>
@@ -60,7 +61,7 @@ export default function Home() {
                       <ul>
                         <li >Appolizer</li>
                         <li >Main Dishes</li>
-                        <li style={{borderBottom:'none' , color:'#154200'}}>Sweet Deesert</li>
+                        <li style={{borderBottom:'none' , color:'#00205B'}}>Sweet Deesert</li>
                       </ul>
                     </div>
 
@@ -202,10 +203,10 @@ export default function Home() {
                 <div className="footer__widget">
                   <h6>CATAGORIES</h6>
                   <ul>
-                    <li><Link to="/">Home</Link></li>
-                    <li><Link to="/">About</Link></li>
-                    <li><Link to="/">Blogs</Link></li>
-                    <li><Link to="/">Contact</Link></li>
+                    <li><Link to="/" className="bottom-links">Home</Link></li>
+                    <li><Link to="/" className="bottom-links">About</Link></li>
+                    <li><Link to="/" className="bottom-links">Blogs</Link></li>
+                    <li><Link to="/" className="bottom-links">Contact</Link></li>
                   </ul>
                 </div>
               </div>
@@ -213,10 +214,10 @@ export default function Home() {
                 <div className="footer__widget">
                   <h6>Tags Used</h6>
                   <ul>
-                    <li><Link to="/">My Account</Link></li>
-                    <li><Link to="/">Orders Tracking</Link></li>
-                    <li><Link to="/">Checkout</Link></li>
-                    <li><Link to="/">Wishlist</Link></li>
+                    <li><Link to="/" className="bottom-links">My Account</Link></li>
+                    <li><Link to="/" className="bottom-links">Orders Tracking</Link></li>
+                    <li><Link to="/" className="bottom-links">Checkout</Link></li>
+                    <li><Link to="/" className="bottom-links">Wishlist</Link></li>
                   </ul>
                 </div>
               </div>

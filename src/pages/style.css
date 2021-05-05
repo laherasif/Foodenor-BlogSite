@@ -135,9 +135,10 @@ text-align: center;
     
 
 }
-.heading-buttons ul li .btn-outline-primary{
+.heading-buttons ul li .btn{
     height: 60px;
-    width: 120px;
+    width: 110px;
+    padding-top:20px;
     font-weight: 600;
     font-family: 'Poppins';
     color: #BA0C2F;
@@ -145,7 +146,7 @@ text-align: center;
 
 }
 
-.heading-buttons ul li .btn-outline-primary:hover{
+.heading-buttons ul li .btn:hover{
     background:none;
     font-family: 'Poppins';
     color: #BA0C2F;
@@ -271,7 +272,7 @@ border-radius: 8px;
     background: rgba(253, 145, 145, 0.1);
 }
 
-#card-bodys h2{
+#reviews h2{
     font-family: Poppins;
 font-style: normal;
 font-weight: 500;
@@ -289,7 +290,7 @@ color: #000000;
 }
 
 #review-card li{
-    margin-top: 25px;
+    margin-top: 20px;
     list-style: none;
     background: #ffffff;
     box-shadow: 0px 16px 40px rgba(112, 144, 176, 0.2);
@@ -353,7 +354,7 @@ color: #404040;
 
 #review-card .review-left{
     position: absolute;
-    top:16%;
+    top:17.7%;
     width: 95px;
     height: 100px;
     background: #902E92;
@@ -396,7 +397,7 @@ color: #FFFAFA;
 
 #review-card #review-Don{
     position: absolute;
-    top: 44%;
+    top: 44.5%;
     left: 25px;
     right: 0px;
     width: 95px;
@@ -440,7 +441,7 @@ color: #FFFAFA;
 
 #review-card #review-Go{
     position: absolute;
-    top: 72%;
+    top: 71.5%;
     left: 26px;
     right: 0px;
     width: 95px;
@@ -452,11 +453,11 @@ color: #FFFAFA;
 }
 #review-card #review-Go .para{
   position: absolute;
-    width: 70.01px;
+    width: 70.03px;
     height: 74.48px;
     left: calc(64% - 70.01px/2 - 12px);
     top: calc(55% - 74.48px/2 - 5.76px);
-    border-radius: 37px;
+    border-radius: 40px;
     border: 3px solid #FFFAFA;
     box-sizing: border-box;
 }
@@ -493,8 +494,13 @@ color: #FFFAFA;
 
 
 
+
+
 #footer{
-    background: #ffffff
+    background: #e3e3e3;
+    padding-top: 2rem;
+    margin-top: 20rem;
+    padding-bottom: 4rem
 }
 
 
@@ -507,6 +513,7 @@ color: #FFFAFA;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
+    padding-top: 10px;
 }
 
 #footer .footer__about .footer__logo h6{
@@ -528,27 +535,48 @@ font-style: normal;
 font-weight: 600;
 font-size: 20px;
 line-height: 36px;
+text-align: center;
 letter-spacing: 0.1em;
 
 color: #000000; 
 }
 
-.footer__widget ul li{
-    font-family: Poppins;
+.footer__widget ul li {
+	list-style: none;
+}
+
+.footer__widget ul li a {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1em;
+    
+    color: #000000;
+}
+
+/* .footer__widget ul li a{
+font-family: 'Poppins';
 font-style: normal;
 font-weight: normal;
 font-size: 16px;
+list-style: none;
 line-height: 24px;
 
 letter-spacing: 0.1em;
-}
+} */
 
+#footer__newslatter{
+    text-align: center;
+}
 #footer__newslatter h6{
 padding:2rem 0px 1.5rem 0px;
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 600;
 font-size: 20px;
+
 line-height: 36px;
 letter-spacing: 0.1em;
 
@@ -639,13 +667,38 @@ color: #00205B;
 
 #footer__newslatter form button {
 	position: absolute;
-    right: 7.6rem;
+    right: 4.3rem;
     height: 53px;
     width: 6rem;
     background: #00205B;
     border-radius: 5px ;
-	top: 7rem;
+    top: 7.5rem;
+    color: #FFFAFA
 }
 
 
 
+
+/* Wide Mobile = 480px */
+
+@media only screen and (max-width: 767px) {
+	
+}
+
+/* Small Device = 320px */
+
+@media only screen and (max-width: 479px) {
+
+	.footer__newslatter form {
+		text-align: center;
+	}
+	.footer__newslatter form input {
+		margin-bottom: 10px;
+	}
+	.footer__newslatter form button {
+		position: relative;
+		right: 0;
+		top: 0;
+	}
+	
+}
