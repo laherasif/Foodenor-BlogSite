@@ -24,7 +24,7 @@ export default function Home() {
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Odio congue egestas ut vitae felis, pellentesque
                       </p>
 
-                    <button className="button  arrow">Explore</button>
+                    <Link to="/explore" className="button  arrow">Explore</Link>
 
                   </div>
                 </div>
@@ -37,8 +37,8 @@ export default function Home() {
                   <div className="heading-buttons">
                     <ul>
                       <li><Link to="/About" className="btn btn">About</Link></li>
-                      <li><Link to="/" className="btn btn">Contribute</Link></li>
-                      <li><Link to="/" className="btn btn">Contact</Link></li>
+                      <li><Link to="/contribute" className="btn btn">Contribute</Link></li>
+                      <li><Link to="/contact" className="btn btn">Contact</Link></li>
                     </ul>
                   </div>
                 </div>
