@@ -1,60 +1,72 @@
 import React from 'react';
 import './contact.css'
+import { Link } from 'gatsby'
 export default function Contact() {
     return (
         <div className="contact">
+
             <div className="container">
-                <div className="row">
-                    <div className="col-lg-12 col-md-12">
-                        <div className="contact-form">
-                            <h2>Contact</h2>
-                            <p className="loram">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Odio congue egestas ut vitae felis, pellentesque
-                            </p>
-                        </div>
+                <div className="color-form">
+                    <div className="contact-form">
+                        <h2>Contact</h2>
+                        <p className="loram">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Odio congue egestas ut vitae felis, pellentesque
+                                </p>
+                    </div>
 
-                        <div className="container">
-                            <div className="contect-form-data">
 
-                                <div className="row">
-                                    <div className="col-md-8">
-                                        <div className="form">
-                                            <form>
-                                                <div className="form-group row" >
-                                                    <div className="col-md-6">
-                                                        <input type="text" placeholder="" className="form-control" />
-                                                    </div>
-                                                    <div className="col-md-6">
-                                                        <input type="text" placeholder="" className="form-control" />
-                                                    </div>
-                                                </div>
-                                                <div className="form-group row" >
-                                                    <div className="col-md-6">
-                                                        <input type="text" placeholder="" className="form-control" />
-                                                    </div>
-                                                    <div className="col-md-6">
-                                                        <input type="text" placeholder="" className="form-control" />
-                                                    </div>
-                                                </div>
-                                                <div className="form-group row" >
-                                                    <div className="col-md-6"></div>
-                                                    <div className="col-md-6"></div>
-                                                </div>
-                                            </form>
+                </div>
+                <div className="form-data">
+                    <div className="form">
+                        <div className="row">
+                            <div className="col-md-7">
+                                <div className="contact-form">
+                                    <div className="form-group row">
+                                        <div className="col-md-6">
+                                            <input type="text" placeholder="enter value" className="form-control" name="" />
+                                        </div>
+                                        <div className="col-md-6">
+                                            <input type="text" placeholder="enter value" className="form-control" name="" />
                                         </div>
                                     </div>
-                                    <div className="col-md-4">
-                                        <div className="form-social">
-
+                                    <div className="form-group row">
+                                        <div className="col-md-6">
+                                            <input type="text" placeholder="enter value" className="form-control" name="" />
+                                        </div>
+                                        <div className="col-md-6">
+                                            <input type="text" placeholder="enter value" className="form-control" name="" />
                                         </div>
                                     </div>
+                                    <div className="form-group row">
+
+                                        <div className="col-md-12">
+                                            <textarea placeholder="enter value" className="form-control" name=""></textarea>
+                                        </div>
+                                    </div>
+
                                 </div>
 
+                            </div>
+                            <div className="col-md-5">
+                                <div className="social-form">
+                                    <h3>Info</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+                                    <div id="footer__social">
+                                        <Link to="/" className="links"><i className="fa fa-linkedin" /></Link>
+                                        <Link to="/" className="links"><i className="fa fa-twitter" /></Link>
+                                        <Link to="/" className="links"><i className="fa fa-behance" /></Link>
+                                        <Link to="/" className="links"><i className="fa fa-instagram" /></Link>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+
+        </div >
     )
 }
