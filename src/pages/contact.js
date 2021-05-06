@@ -16,11 +16,13 @@ export default function Contact() {
 
 
                 </div>
+                <div className="Bottom-form" ></div>
                 <div className="form-data">
                     <div className="form">
                         <div className="row">
                             <div className="col-md-7">
-                                <div className="contact-form">
+                                <div className="contact-forms">
+                                    <h2>Send us a message</h2>
                                     <div className="form-group row">
                                         <div className="col-md-6">
                                             <input type="text" placeholder="enter value" className="form-control" name="" />
@@ -54,7 +56,7 @@ export default function Contact() {
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 
-                                    <div id="footer__social">
+                                    <div id="social-links">
                                         <Link to="/" className="links"><i className="fa fa-linkedin" /></Link>
                                         <Link to="/" className="links"><i className="fa fa-twitter" /></Link>
                                         <Link to="/" className="links"><i className="fa fa-behance" /></Link>

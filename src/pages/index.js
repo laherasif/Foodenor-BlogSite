@@ -24,7 +24,7 @@ export default function Home() {
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Odio congue egestas ut vitae felis, pellentesque
                       </p>
 
-                    <Link to="/explore" className="button  arrow">Explore</Link>
+                    <Link to="/blog"  className="button  arrow">Explore</Link>
 
                   </div>
                 </div>

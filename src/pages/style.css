@@ -76,6 +76,7 @@ color: #404040;
     top: 0;
     bottom: 0;
     right: 0;
+    
     padding-top: inherit;
     padding-bottom: inherit;
     width: 4em;
@@ -86,12 +87,14 @@ color: #404040;
 }
 .button:before {
     background: #BA0C2F;
+    
 }
 
 .button {
     margin-top: 0.5rem;
     padding-top: 1rem;
     width: 100%;
+    
     height: 4.4em;
     border: 3px solid #BA0C2F;
     box-sizing: border-box;
@@ -101,6 +104,8 @@ color: #404040;
    
    background: #ffffff;
    color: #BA0C2F;
+   text-decoration: none;
+
 }
 
 .arrow:after {
@@ -108,6 +113,13 @@ color: #404040;
     
     color: #ffffff;
 }
+
+.button:hover{
+    text-decoration: none;
+     color: #BA0C2F;
+}
+
+
 
 
 .heading-logo{
