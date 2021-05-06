@@ -1,19 +1,18 @@
-
-
-.blog{
+.blog {
     width: 100%;
-    height: 100%;
     display: flex;
     margin-bottom: 4rem;
-
+    padding-bottom: 4rem;
 }
 
-.blog .title{
+.blog .title {
     width: 100%;
     padding-top: 3rem;
+    margin-bottom: 3rem;
     overflow: hidden;
 }
-.title h2{
+
+.title h2 {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 800;
@@ -24,63 +23,47 @@
     letter-spacing: 0.04em;
 }
 
-
-.title p{
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 24px;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.1em;
-    color: #404040;
-}
-
-
 .about section {
     width: 100%;
     margin-top: 10rem;
     overflow: hidden
 }
 
-
-.blog .blog-section-image{
-    width:100%;
+.blog .blog-section-image {
+    width: 100%;
     overflow: hidden;
     /* padding: 30px; */
 }
 
-.blog-section-image .river{
+.blog-section-image .river {
     width: 100%;
     height: 500px;
     background: rgba(204, 204, 204, 0.4);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-   border-radius: 8px;
-
+    border-radius: 8px;
 }
-.blog-section-image .logo{
+
+.blog-section-image .logo {
     width: 436.03px;
-height: 300px;
-z-index: 1000;
-margin-left: 45px;
-margin-top: -32rem;
+    height: 300px;
+    z-index: 1000;
+    margin-left: 45px;
+    margin-top: -32rem;
 }
 
-.section-filter input[type=text]{
+.section-filter input[type=text] {
     width: 464.82px;
-height: 48px;
-background: #EEEEEE;
-box-shadow: 6px 16px 20px 5px rgba(170, 170, 170, 0.2);
-border-radius: 100px;
+    height: 48px;
+    background: #EEEEEE;
+    box-shadow: 6px 16px 20px 5px rgba(170, 170, 170, 0.2);
+    border-radius: 100px;
 }
 
-.section-filter textarea{
+.section-filter textarea {
     width: 464.82px;
-background: #EEEEEE;
-box-shadow: 6px 16px 20px 5px rgba(170, 170, 170, 0.2);
+    background: #EEEEEE;
+    box-shadow: 6px 16px 20px 5px rgba(170, 170, 170, 0.2);
 }
-
 
 .has-search .form-control {
     padding-left: 2.375rem;
@@ -96,94 +79,42 @@ box-shadow: 6px 16px 20px 5px rgba(170, 170, 170, 0.2);
     line-height: 2.375rem;
     text-align: center;
     pointer-events: none;
-    color: #aaa;
+    left: 30px;
+    top: 5px;
+    color: #000;
 }
-
-.section-filter form input::-webkit-input-placeholder {
-	font-family: Poppins;
-font-style: normal;
-font-weight: 600;
-font-size: 26px;
-line-height: 39px;
-
-
-color: #00205B;
-
-}
-
-.section-filter form input::-moz-placeholder {
-	font-family: Poppins;
-font-style: normal;
-font-weight: 600;
-font-size: 26px;
-line-height: 39px;
-color: #00205B;
-
-}
-
-.section-filter form input:-ms-input-placeholder {
-	font-family: Poppins;
-font-style: normal;
-font-weight: 600;
-font-size: 26px;
-line-height: 39px;
-
-
-color: #00205B;
-
-}
-
-.section-filter form input::-ms-input-placeholder {
-	font-family: Poppins;
-font-style: normal;
-font-weight: 600;
-font-size: 20px;
-line-height: 39px;
-padding-left: 2rem;
-
-color: #00205B;
-
-}
-
-.section-filter form input::placeholder {
-	font-family: Poppins;
-font-style: normal;
-font-weight: 600;
-font-size: 20px;
-line-height: 39px;
-
-
-color: #00205B;
-
+.section-filter form input::placeholder{
+    border: 1pt solid yellow;
+   padding-left: 3rem;
 }
 
 
-.food-cards{
-width: 100%;
-overflow: hidden;
-
+.food-cards {
+    width: 100%;
+    margin-top: 4.5rem;
+    overflow: hidden;
 }
 
-.food-cards .card{
+.food-cards .card {
     border: none;
+    width: 100%;
     background: #F9F9F9;
-box-shadow: 6px 16px 40px 5px rgba(170, 170, 170, 0.2);
-border-radius: 8px;
+    box-shadow: 6px 16px 40px 5px rgba(170, 170, 170, 0.2);
+    border-radius: 8px;
 }
 
-.food-cards .card .card-body .card-title{
+.food-cards .card .card-body .card-title {
     font-family: 'Yellowtail';
-font-style: normal;
-font-weight: normal;
-font-size: 40px;
-line-height: 55px;
-text-align: center;
-letter-spacing: 0.04em;
-
-color: #000000;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 55px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #000000;
 }
 
-.food-cards .card .card-body .card-text{
+.food-cards .card .card-body .card-text {
     font-family: "Poppins";
     font-style: normal;
     font-weight: normal;
@@ -191,10 +122,74 @@ color: #000000;
     line-height: 24px;
     text-align: center;
     letter-spacing: 0.1em;
-    
     color: #404040;
 }
 
-.food-cards .card .card-body .card-btn{
-    
+.food-cards .card .card-body .card-btn {
+    width: 100%;
+}
+
+.card-btn ul {
+    width: 400px;
+    float: left;
+    margin-left: -1.6rem;
+}
+
+.card-btn ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 7px;
+}
+
+.card-btn .pizza {
+    width: 120px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.04em;
+    padding: 7px 10px 7px 10px;
+    color: #FFFFFF;
+    background: #00205B;
+}
+
+.pizza i {
+    color: #FFFFFF;
+    padding-left: 5px;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-footer .date p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    padding-top: 10px;
+    letter-spacing: 0.04em;
+    color: #000000;
+}
+
+.card-footer .stars {
+    padding-top: 10px;
+    color: #CCCCCC;
+}
+
+.stars span {
+    padding-top: 5px;
+    font-size: 18px;
+    padding-left: 5px;
+}
+
+.card-footer .stars .checked {
+    color: #FFA723;
+    padding-left: 5px;
 }

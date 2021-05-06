@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function BlogTitle() {
+export default function Title() {
     return(
         <div>
    hellow this is Contact

@@ -224,7 +224,7 @@ export default function Home() {
               <div className="col-lg-4 col-md-8 col-sm-8">
                 <div id="footer__newslatter">
                   <h6>NEWSLETTER</h6>
-                  <form >
+                  <form  >
                     <input type="text" placeholder="Email Us" />
                     <button className="site-btn"><i className="fa fa-long-arrow-right"></i></button>
                   </form>
