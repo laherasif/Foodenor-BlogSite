@@ -95,7 +95,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="col-md-4">
-                  <div id="reviews">
+                  <div id="reviews" >
                     <div >
                       <h2>Reviews</h2>
                       <ul id="review-card">
