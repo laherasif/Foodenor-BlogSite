@@ -1,15 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&family=Yellowtail&display=swap');
-
-
 body {
     background: #E5E5E5
 }
-.food{
+
+.food {
     padding-top: 5rem;
     width: 100%;
 }
 
-.food section{
+
+
+.food section {
     width: 100%;
     display: flex;
     overflow: hidden;
@@ -19,7 +20,8 @@ body {
     width: 100%;
     overflow: hidden;
 }
-.section-heading .heading{
+
+.section-heading .heading {
     width: 100%;
     overflow: hidden;
     padding-top: 2rem;
@@ -27,31 +29,27 @@ body {
 
 .heading p {
     font-family: 'Poppins';
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-letter-spacing: 0.1em;
-margin-top: 1rem;
-color: #404040;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1em;
+    margin-top: 1rem;
+    color: #404040;
 }
 
-.heading h2{
-    
-    
+.heading h2 {
     font-family: 'Poppins';
     font-style: normal;
-    font-weight:800;
+    font-weight: 800;
     font-size: 50px;
     line-height: 73px;
     display: flex;
     margin-top: -2rem;
     align-items: center;
-    
-    color: #000000;    
+    color: #000000;
 }
 
-
-.heading .loram{
+.heading .loram {
     font-style: normal;
     font-family: 'Poppins';
     font-weight: 400;
@@ -59,7 +57,6 @@ color: #404040;
     padding-top: 3.5em;
     color: #404040;
 }
-
 
 .button {
     display: inline-block;
@@ -71,12 +68,12 @@ color: #404040;
     border: none;
     color: white;
 }
+
 .button:before, .button:after {
     position: absolute;
     top: 0;
     bottom: 0;
     right: 0;
-    
     padding-top: inherit;
     padding-bottom: inherit;
     width: 4em;
@@ -85,88 +82,80 @@ color: #404040;
     font-size: 1.2em;
     text-align: center;
 }
+
 .button:before {
     background: #BA0C2F;
-    
 }
 
 .button {
     margin-top: 0.5rem;
     padding-top: 1rem;
     width: 100%;
-    
     height: 4.4em;
     border: 3px solid #BA0C2F;
     box-sizing: border-box;
     border-radius: 6px;
 }
-.arrow {
-   
-   background: #ffffff;
-   color: #BA0C2F;
-   text-decoration: none;
 
+.arrow {
+    background: #ffffff;
+    color: #BA0C2F;
+    text-decoration: none;
 }
 
 .arrow:after {
     content: "\2192";
-    
     color: #ffffff;
 }
 
-.button:hover{
+.button:hover {
     text-decoration: none;
-     color: #BA0C2F;
+    color: #BA0C2F;
 }
 
-
-
-
-.heading-logo{
+.heading-logo {
     width: 100%;
     height: 100%;
     overflow: hidden;
 }
-.heading-logo img{
+
+.heading-logo img {
     width: 100%;
     height: 100%;
-    padding:2rem 4rem 2rem 4rem ;
+    padding: 2rem 4rem 2rem 4rem;
 }
-.heading-buttons{
+
+.heading-buttons {
     width: 100%;
-margin-right: 2rem;
-text-align: center;
+    margin-right: 2rem;
+    text-align: center;
     overflow: hidden;
     padding-top: 4rem;
-    
 }
 
 .heading-buttons ul li {
     list-style: none;
     margin-bottom: 3rem;
-    
-
 }
-.heading-buttons ul li .btn{
+
+.heading-buttons ul li .btn {
     height: 60px;
     width: 110px;
-    padding-top:20px;
+    padding-top: 20px;
     font-weight: 600;
     font-family: 'Poppins';
     color: #BA0C2F;
     border-color: #BA0C2F;
-
 }
 
-.heading-buttons ul li .btn:hover{
-    background:none;
+.heading-buttons ul li .btn:hover {
+    background: none;
     font-family: 'Poppins';
     color: #BA0C2F;
     border-color: #BA0C2F;
-
 }
 
-.food section{
+.food section {
     width: 100%;
     display: flex;
     overflow: hidden;
@@ -178,11 +167,12 @@ text-align: center;
     overflow: hidden;
 }
 
-.section-discover .discover{
+.section-discover .discover {
     width: 100%;
     overflow: hidden;
 }
-.discover h1{
+
+.discover h1 {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 900;
@@ -192,22 +182,18 @@ text-align: center;
     display: flex;
     align-items: center;
     letter-spacing: 0.04em;
-    
     color: #000000;
-    
-
 }
-.discover .discovers-card{
+
+.discover .discovers-card {
     margin-top: 3rem;
     width: 100%;
     text-align: center;
- 
     padding: 1rem 4rem 2rem 1rem;
     background: rgba(253, 145, 145, 0.1);
-  
 }
 
-.discovers-card ul li{
+.discovers-card ul li {
     list-style: none;
     display: flex;
     color: #BA0C2F;
@@ -221,49 +207,54 @@ text-align: center;
     width: 100%;
     border-bottom: 1px solid #DAD2D2;
 }
- .dicover-imagecard{
+
+.dicover-imagecard {
     width: 100%;
     display: flex;
     border: none;
     background: rgba(253, 145, 145, 0.1);
     border-radius: 8px;
 }
-.dicover-imagecard .card-img-top{
+
+.dicover-imagecard .card-img-top {
     height: 160px;
 }
 
-.dicover-imagecard .card-body .title{
+.dicover-imagecard .card-body .title {
     display: flex;
     justify-content: space-between
 }
-.card-body .title .card-title{
+
+.card-body .title .card-title {
     font-family: 'Yellowtail';
     font-size: 20px;
 }
-.card-body .title .stars > span{
+
+.card-body .title .stars>span {
     color: #FFA723;
     padding-left: 5px;
 }
+
 .card-body p {
     font-family: 'Poppins'
 }
-.card-body .explore-more{
+
+.card-body .explore-more {
     width: 100%;
     padding-top: 4.5rem;
     display: flex;
 }
 
-.card-body .explore-more button{
-   
-width: 50px;
-height: 38.89px;
-border: 1pt solid #BA0C2F;
-background: #BA0C2F;
-color: #ffffff;
-border-radius: 8px;
+.card-body .explore-more button {
+    width: 50px;
+    height: 38.89px;
+    border: 1pt solid #BA0C2F;
+    background: #BA0C2F;
+    color: #ffffff;
+    border-radius: 8px;
 }
 
-.card-body .explore-more p{
+.card-body .explore-more p {
     font-family: Poppins;
     font-style: normal;
     font-weight: 600;
@@ -277,33 +268,32 @@ border-radius: 8px;
     color: #BA0C2F;
 }
 
-#reviews{
+#reviews {
     width: 100%;
     padding: 10px;
     border-radius: 8px;
     background: rgba(253, 145, 145, 0.1);
 }
 
-#reviews h2{
-    font-family: Poppins;
-font-style: normal;
-font-weight: 500;
-padding: 10px 0px 0px 10px;
-font-size: 25px;
-line-height: 39px;
-/* identical to box height */
-
-
-color: #000000;
+#reviews h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    padding: 10px 0px 0px 10px;
+    font-size: 25px;
+    line-height: 39px;
+    /* identical to box height */
+    color: #000000;
 }
 
-#review-card{
+#review-card {
     padding: 0px;
 }
 
-#review-card li{
+#review-card li {
     margin-top: 20px;
     list-style: none;
+    display: flex;
     background: #ffffff;
     box-shadow: 0px 16px 40px rgba(112, 144, 176, 0.2);
     border-radius: 8px;
@@ -311,71 +301,60 @@ color: #000000;
     height: 100px;
 }
 
-
-
-#review-card .review-data{
+#review-card .review-data {
     display: flex;
     justify-content: space-between;
 }
 
-
-#review-card .review-data .title{
+#review-card .review-data .title {
     padding-left: 6.5rem;
 }
 
-#review-card .review-data .title h4{
-    font-family: Poppins;
-font-style: normal;
-font-weight: 600;
-font-size: 24px;
-line-height: 42px;
-color: #000000;
-}
-#review-card .review-data .title p{
-    font-family: Poppins;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 24px;
-display: flex;
-align-items: center;
-
-color: #404040;
+#review-card .review-data .title h4 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 42px;
+    color: #000000;
 }
 
-#review-card .review-data .title-star{
+#review-card .review-data .title p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    color: #404040;
+}
+
+#review-card .review-data .title-star {
     padding: 10px;
 }
 
-#review-card .review-data .title-star span{
-
+#review-card .review-data .title-star span {
     padding-left: 5px;
+    font-size: 12px;
     color: #CCCCCC;
-
 }
 
-#review-card .review-data .title-star .checked{
+#review-card .review-data .title-star .checked {
     color: #FFA723;
     padding-left: 5px;
 }
 
-
-
-
-
-
-#review-card .review-left{
+#review-card .review-left {
     position: absolute;
-    top:17.7%;
+    top: 17.7%;
     width: 95px;
     height: 100px;
     background: #902E92;
     border-radius: 8px 0px 0px 8px;
-    
-    
 }
-#review-card .review-left .para{
-  position: absolute;
+
+#review-card .review-left .para {
+    position: absolute;
     width: 70.01px;
     height: 74.48px;
     left: calc(64% - 70.01px/2 - 12px);
@@ -385,29 +364,25 @@ color: #404040;
     box-sizing: border-box;
 }
 
-.para p{
+.para p {
     position: absolute;
-width: 29px;
-height: 75px;
-left: calc(63% - 29px/2 - 11.5px);
-top: calc(55% - 75px/2 - 5.5px);
-
-font-family: Poppins;
-font-style: normal;
-font-weight: 600;
-font-size: 50px;
-line-height: 75px;
-/* identical to box height */
-
-display: flex;
-align-items: center;
-text-align: center;
-
-color: #FFFAFA;
+    width: 29px;
+    height: 75px;
+    left: calc(63% - 29px/2 - 11.5px);
+    top: calc(55% - 75px/2 - 5.5px);
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 75px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFAFA;
 }
 
-
-#review-card #review-Don{
+#review-card #review-Don {
     position: absolute;
     top: 44.5%;
     left: 25px;
@@ -416,11 +391,10 @@ color: #FFFAFA;
     height: 100px;
     background: #A40000;
     border-radius: 8px 0px 0px 8px;
-    
-    
 }
-#review-card  #review-Don .para{
-   position: absolute;
+
+#review-card #review-Don .para {
+    position: absolute;
     width: 70.01px;
     height: 74.48px;
     left: calc(64% - 70.01px/2 - 12px);
@@ -430,28 +404,25 @@ color: #FFFAFA;
     box-sizing: border-box;
 }
 
-.para p{
+.para p {
     position: absolute;
-width: 29px;
-height: 75px;
-left: calc(63% - 29px/2 - 11.5px);
-top: calc(55% - 75px/2 - 5.5px);
-
-font-family: Poppins;
-font-style: normal;
-font-weight: 600;
-font-size: 50px;
-line-height: 75px;
-/* identical to box height */
-
-display: flex;
-align-items: center;
-text-align: center;
-
-color: #FFFAFA;
+    width: 29px;
+    height: 75px;
+    left: calc(63% - 29px/2 - 11.5px);
+    top: calc(55% - 75px/2 - 5.5px);
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 75px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFAFA;
 }
 
-#review-card #review-Go{
+#review-card #review-Go {
     position: absolute;
     top: 71.5%;
     left: 26px;
@@ -460,11 +431,10 @@ color: #FFFAFA;
     height: 100px;
     background: #154200;
     border-radius: 8px 0px 0px 8px;
-    
-    
 }
-#review-card #review-Go .para{
-  position: absolute;
+
+#review-card #review-Go .para {
+    position: absolute;
     width: 70.03px;
     height: 74.48px;
     left: calc(64% - 70.01px/2 - 12px);
@@ -474,243 +444,39 @@ color: #FFFAFA;
     box-sizing: border-box;
 }
 
-.para p{
+.para p {
     position: absolute;
-width: 29px;
-height: 75px;
-left: calc(63% - 29px/2 - 11.5px);
-top: calc(55% - 75px/2 - 5.5px);
-
-font-family: Poppins;
-font-style: normal;
-font-weight: 600;
-font-size: 50px;
-line-height: 75px;
-/* identical to box height */
-
-display: flex;
-align-items: center;
-text-align: center;
-
-color: #FFFAFA;
-}
-
-
-
-
-
-
-    
-
-
-
-
-
-
-
-#footer{
-    background: #ffffff;
-    padding-top: 2rem;
-    margin-top: 20rem;
-    padding-bottom: 4rem
-}
-
-
-#footer .footer__about .footer__logo img{
-    width: 145.34px;
-    height: 100px
-}
-
-#footer .footer__about  p{
-    font-family: 'Poppins';
+    width: 29px;
+    height: 75px;
+    left: calc(63% - 29px/2 - 11.5px);
+    top: calc(55% - 75px/2 - 5.5px);
+    font-family: Poppins;
     font-style: normal;
-    font-weight: 400;
-    padding-top: 10px;
-}
-
-#footer .footer__about .footer__logo h6{
-    font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 20px;
-line-height: 36px;
-padding:2rem 0px 0px 1rem;
-letter-spacing: 0.1em;
-
-color: #000000;
-}
-
-.footer__widget h6{
-padding:2rem 0px 2rem 0px;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 20px;
-line-height: 36px;
-text-align: center;
-letter-spacing: 0.1em;
-
-color: #000000; 
-}
-
-.footer__widget ul li {
-	list-style: none;
-}
-
-.footer__widget ul li a {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.1em;
-    
-    color: #000000;
-}
-
-/* .footer__widget ul li a{
-font-family: 'Poppins';
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-list-style: none;
-line-height: 24px;
-
-letter-spacing: 0.1em;
-} */
-
-#footer__newslatter{
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 75px;
+    display: flex;
+    align-items: center;
     text-align: center;
+    color: #FFFAFA;
 }
-#footer__newslatter h6{
-padding:2rem 0px 1.5rem 0px;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 20px;
-
-line-height: 36px;
-letter-spacing: 0.1em;
-
-color: #000000;
-}
-
-#footer__social .links {
-	display: inline-block;
-	
-	background: #000000;
-    font-size: 15px;
-    padding: 0px 3px 0px 3px ;
-    border-radius: 2px;
-    color: #ffffff;
-    border-radius: 5px;
-	text-align: center;
-	margin-right: 6px;
-	margin-bottom: 5px;
-}
-#footer__newslatter form input {
-	height: 55px;
-	width: 70%;
-    border-radius: 5px ;
-    padding-left: 30px;
-    margin-bottom: 10px;
-    margin-top: 20px;
-	font-size: 14px;
-	color: #666666;
-}
-
-#footer__newslatter form input::-webkit-input-placeholder {
-	font-family: Poppins;
-font-style: normal;
-font-weight: 600;
-font-size: 26px;
-line-height: 39px;
-
-
-color: #00205B;
-
-}
-
-#footer__newslatter form input::-moz-placeholder {
-	font-family: Poppins;
-font-style: normal;
-font-weight: 600;
-font-size: 26px;
-line-height: 39px;
-color: #00205B;
-
-}
-
-#footer__newslatter form input:-ms-input-placeholder {
-	font-family: Poppins;
-font-style: normal;
-font-weight: 600;
-font-size: 26px;
-line-height: 39px;
-
-
-color: #00205B;
-
-}
-
-#footer__newslatter form input::-ms-input-placeholder {
-	font-family: Poppins;
-font-style: normal;
-font-weight: 600;
-font-size: 20px;
-line-height: 39px;
-
-
-color: #00205B;
-
-}
-
-#footer__newslatter form input::placeholder {
-	font-family: Poppins;
-font-style: normal;
-font-weight: 600;
-font-size: 20px;
-line-height: 39px;
-
-
-color: #00205B;
-
-}
-
-#footer__newslatter form button {
-	position: absolute;
-    right: 4.3rem;
-    height: 53px;
-    width: 6rem;
-    background: #00205B;
-    border-radius: 5px ;
-    top: 7.5rem;
-    color: #FFFAFA
-}
-
-
-
 
 /* Wide Mobile = 480px */
 
-@media only screen and (max-width: 767px) {
-	
-}
+@media only screen and (max-width: 767px) {}
 
 /* Small Device = 320px */
 
 @media only screen and (max-width: 479px) {
-
-	.footer__newslatter form {
-		text-align: center;
-	}
-	.footer__newslatter form input {
-		margin-bottom: 10px;
-	}
-	.footer__newslatter form button {
-		position: relative;
-		right: 0;
-		top: 0;
-	}
-	
+    .footer__newslatter form {
+        text-align: center;
+    }
+    .footer__newslatter form input {
+        margin-bottom: 10px;
+    }
+    .footer__newslatter form button {
+        position: relative;
+        right: 0;
+        top: 0;
+    }
 }

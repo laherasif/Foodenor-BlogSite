@@ -1,7 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './blog.css'
 import { Link } from 'gatsby'
+import Footer from "./footer";
+
 export default function Blog() {
+    const [show, setShow] = useState(false)
+
+    const Toggle = () => {
+        setShow(!show)
+    }
     return (
         <div>
             <div className="blog">
@@ -20,7 +27,8 @@ export default function Blog() {
                             <div className="col-lg-7 col-md-12">
                                 <div className="blog-section-image">
                                     <img src="images/food.jpg" alt="lunch" className="river" />
-                                    <Link to="/title"> <img src="images/FoodieNor logo design .png" className="logo" alt="food_logo" /></Link>
+                                    <img src="images/FoodieNor logo design .png" className="logo" alt="food_logo" />
+                                    
 
                                 </div>
                             </div>
@@ -29,19 +37,23 @@ export default function Blog() {
                                 <div className="section-filter">
                                     <form>
                                         <div className="form-group has-search">
-                                            <span className="fa fa-search form-control-feedback" ></span>
+                                            <span className="fa fa-search form-control-feedback" >
+                                            </span>
                                             <input type="text" className="form-control" placeholder="Search" />
                                         </div>
                                     </form>
 
-                                    <div className="form-group has-search">
+                                    <div className="filter-form ">
                                         <span className="fa fa-filter form-control-feedback" ></span>
-                                        <input type="text" className="form-control" placeholder="Search" />
+                                        <p className="filter"></p>
+                                        <span className="filter-text">Filter</span>
+                                        <i className={ show ? "fa fa-plus" :  "fa fa-minus"} onClick={()=> Toggle()}></i>
                                     </div>
-                                    <div className="textfield">
-
-                                        <textarea className="form-control" cols="10" rows="10"  ></textarea>
-                                    </div>
+                                    {show ?
+                                        <div className="textfield">
+                                            <textarea className="form-control" cols="10" rows="10"  ></textarea>
+                                        </div>
+                                        : null}
                                 </div>
 
                             </div>
@@ -54,7 +66,7 @@ export default function Blog() {
                             <div className="row">
                                 <div className="col-md-4">
                                     <div className="card">
-                                        <img className="card-img-top" src="images/fastfood.jpg" alt="Card cap" />
+                                       <Link to="/title"><img className="card-img-top" src="images/fastfood.jpg" alt="Card cap" /></Link>
                                         <div className="card-body">
                                             <h3 className="card-title">
                                                 Lorem ispurm
@@ -110,7 +122,7 @@ export default function Blog() {
                                 </div>
                                 <div className="col-md-4">
                                     <div className="card">
-                                        <img className="card-img-top" src="images/fastfood.jpg" alt="Card cap" />
+                                    <Link to="/title">  <img className="card-img-top" src="images/fastfood.jpg" alt="Card cap" /></Link>
                                         <div className="card-body">
                                             <h3 className="card-title">
                                                 Lorem ispurm
@@ -166,7 +178,7 @@ export default function Blog() {
                                 </div>
                                 <div className="col-md-4">
                                     <div className="card">
-                                        <img className="card-img-top" src="images/fastfood.jpg" alt="Card cap" />
+                                    <Link to="/title"> <img className="card-img-top" src="images/fastfood.jpg" alt="Card cap" /></Link>
                                         <div className="card-body">
                                             <h3 className="card-title">
                                                 Lorem ispurm
@@ -229,7 +241,7 @@ export default function Blog() {
                             <div className="row">
                                 <div className="col-md-4">
                                     <div className="card">
-                                        <img className="card-img-top" src="images/fastfood.jpg" alt="Card cap" />
+                                    <Link to="/title"> <img className="card-img-top" src="images/fastfood.jpg" alt="Card cap" /></Link>
                                         <div className="card-body">
                                             <h3 className="card-title">
                                                 Lorem ispurm
@@ -285,7 +297,7 @@ export default function Blog() {
                                 </div>
                                 <div className="col-md-4">
                                     <div className="card">
-                                        <img className="card-img-top" src="images/fastfood.jpg" alt="Card cap" />
+                                    <Link to="/title"><img className="card-img-top" src="images/fastfood.jpg" alt="Card cap" /></Link>
                                         <div className="card-body">
                                             <h3 className="card-title">
                                                 Lorem ispurm
@@ -341,7 +353,7 @@ export default function Blog() {
                                 </div>
                                 <div className="col-md-4">
                                     <div className="card">
-                                        <img className="card-img-top" src="images/fastfood.jpg" alt="Card cap" />
+                                    <Link to="/title"><img className="card-img-top" src="images/fastfood.jpg" alt="Card cap" /></Link>
                                         <div className="card-body">
                                             <h3 className="card-title">
                                                 Lorem ispurm
@@ -401,6 +413,7 @@ export default function Blog() {
                     </section>
                 </div>
             </div>
+            <Footer/>
         </div>
     )
 }

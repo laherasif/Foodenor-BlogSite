@@ -1,5 +1,7 @@
 import React from "react"
 import './contribution.css'
+import Footer from "./footer";
+
 export default function Contributation() {
     return (
         <div>
@@ -69,6 +71,7 @@ export default function Contributation() {
 
                 </div>
             </div>
+            <Footer/>
         </div>
     )
 }
