@@ -19,7 +19,7 @@ export default function Contributation() {
 
                     <section>
                         <div className="row">
-                            <div className="col-lg-6 col-md-12">
+                            <div className="col-lg-6 col-md-6">
                                 <div className="section-vision">
                                     <h2>Give us a Tip</h2>
                                     <p className="loram">
@@ -30,7 +30,7 @@ export default function Contributation() {
                       </p>
                                 </div>
                             </div>
-                            <div className="col-lg-6 col-md-12">
+                            <div className="col-lg-6 col-md-6">
                                 <div className="section-image">
                                     <img src="images/bread.jpg" alt="lunch" />
 
@@ -40,14 +40,14 @@ export default function Contributation() {
                     </section>
                     <section>
                         <div className="row">
-                            <div className="col-lg-6 col-md-12">
+                            <div className="col-lg-6 col-md-6">
                                 <div className="section-image">
                                     <img src="images/bread.jpg" alt="lunch" />
 
                                 </div>
                             </div>
-                            <div className="col-lg-6 col-md-12">
-                                <div className="section-vision" style={{ paddingLeft: '30px' }}>
+                            <div className="col-lg-6 col-md-6">
+                                <div className="section-write" style={{ paddingLeft: '30px' }}>
                                     <h2>Write with us </h2>
                                     <p className="loram">
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Odio congue egestas ut vitae felis, pellentesqueLorem ipsum dolor sit amet, consectetur adipiscing elit. Odio congue egestas ut vitae felis, pellentesque
@@ -56,7 +56,7 @@ export default function Contributation() {
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Odio congue egestas ut vitae felis, pellentesqueLorem ipsum dolor sit amet, consectetur adipiscing elit. Odio congue egestas ut vitae felis, pellentesque
                       </p>
                                      
-                                     <div className="buttuts-list">
+                                     <div className="bulluts-list">
                                          <ul>
                                              <li>Loram is paragraph</li>
                                              <li>Loram is paragraph</li>

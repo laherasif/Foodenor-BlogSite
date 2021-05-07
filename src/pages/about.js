@@ -16,74 +16,75 @@ export default function About() {
                             </div>
                         </div>
                     </div>
+                    <div className="about-section">
+                        <section className="first-section">
+                            <div className="row">
+                                <div className="col-lg-6 col-md-6">
+                                    <div className="section-vision">
+                                        <h2>Our Vision</h2>
+                                        <p className="loram">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Odio congue egestas ut vitae felis, pellentesqueLorem ipsum dolor sit amet, consectetur adipiscing elit. Odio congue egestas ut vitae felis, pellentesque
+                      </p>
+                                        <p className="loram2">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Odio congue egestas ut vitae felis, pellentesqueLorem ipsum dolor sit amet, consectetur adipiscing elit. Odio congue egestas ut vitae felis, pellentesque
+                      </p>
+                                    </div>
+                                </div>
+                                <div className="col-lg-6 col-md-6">
+                                    <div className="section-image">
+                                        <img src="images/bread.jpg" alt="lunch" />
 
-                    <section>
-                        <div className="row">
-                            <div className="col-lg-6 col-md-12">
-                                <div className="section-vision">
-                                    <h2>Our Vision</h2>
-                                    <p className="loram">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Odio congue egestas ut vitae felis, pellentesqueLorem ipsum dolor sit amet, consectetur adipiscing elit. Odio congue egestas ut vitae felis, pellentesque
-                      </p>
-                                    <p className="loram2">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Odio congue egestas ut vitae felis, pellentesqueLorem ipsum dolor sit amet, consectetur adipiscing elit. Odio congue egestas ut vitae felis, pellentesque
-                      </p>
+                                    </div>
                                 </div>
                             </div>
-                            <div className="col-lg-6 col-md-12">
-                                <div className="section-image">
-                                    <img src="images/bread.jpg" alt="lunch" />
+                        </section>
+                        <section className="second-section">
+                            <div className="row">
+                                <div className="col-lg-6 col-md-6">
+                                    <div className="section-image">
+                                        <img src="images/bread.jpg" alt="lunch" />
 
+                                    </div>
                                 </div>
-                            </div>
-                        </div>
-                    </section>
-                    <section>
-                        <div className="row">
-                            <div className="col-lg-6 col-md-12">
-                                <div className="section-image">
-                                    <img src="images/bread.jpg" alt="lunch" />
+                                <div className="col-lg-6 col-md-6">
+                                    <div className="section-vision" style={{ paddingLeft: '30px' }}>
+                                        <h2>Our Approch</h2>
+                                        <p className="loram">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Odio congue egestas ut vitae felis, pellentesqueLorem ipsum dolor sit amet, consectetur adipiscing elit. Odio congue egestas ut vitae felis, pellentesque
+                      </p>
+                                        <p className="loram2">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Odio congue egestas ut vitae felis, pellentesqueLorem ipsum dolor sit amet, consectetur adipiscing elit. Odio congue egestas ut vitae felis, pellentesque
+                      </p>
+                                    </div>
+                                </div>
 
-                                </div>
                             </div>
-                            <div className="col-lg-6 col-md-12">
-                                <div className="section-vision" style={{paddingLeft:'30px'}}>
-                                    <h2>Our Approch</h2>
-                                    <p className="loram">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Odio congue egestas ut vitae felis, pellentesqueLorem ipsum dolor sit amet, consectetur adipiscing elit. Odio congue egestas ut vitae felis, pellentesque
+                        </section>
+                        <section className="third-section">
+                            <div className="row">
+                                <div className="col-lg-6 col-md-6">
+                                    <div className="section-vision">
+                                        <h2>Our Process</h2>
+                                        <p className="loram">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Odio congue egestas ut vitae felis, pellentesqueLorem ipsum dolor sit amet, consectetur adipiscing elit. Odio congue egestas ut vitae felis, pellentesque
                       </p>
-                                    <p className="loram2">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Odio congue egestas ut vitae felis, pellentesqueLorem ipsum dolor sit amet, consectetur adipiscing elit. Odio congue egestas ut vitae felis, pellentesque
+                                        <p className="loram2">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Odio congue egestas ut vitae felis, pellentesqueLorem ipsum dolor sit amet, consectetur adipiscing elit. Odio congue egestas ut vitae felis, pellentesque
                       </p>
+                                    </div>
                                 </div>
-                            </div>
+                                <div className="col-lg-6 col-md-6">
+                                    <div className="section-image">
+                                        <img src="images/bread.jpg" alt="lunch" />
 
-                        </div>
-                    </section>
-                    <section>
-                        <div className="row">
-                            <div className="col-lg-6 col-md-12">
-                                <div className="section-vision">
-                                    <h2>Our Process</h2>
-                                    <p className="loram">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Odio congue egestas ut vitae felis, pellentesqueLorem ipsum dolor sit amet, consectetur adipiscing elit. Odio congue egestas ut vitae felis, pellentesque
-                      </p>
-                                    <p className="loram2">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Odio congue egestas ut vitae felis, pellentesqueLorem ipsum dolor sit amet, consectetur adipiscing elit. Odio congue egestas ut vitae felis, pellentesque
-                      </p>
+                                    </div>
                                 </div>
                             </div>
-                            <div className="col-lg-6 col-md-12">
-                                <div className="section-image">
-                                    <img src="images/bread.jpg" alt="lunch" />
-
-                                </div>
-                            </div>
-                        </div>
-                    </section>
+                        </section>
+                    </div>
                 </div>
             </div>
-            <Footer/>
+            <Footer />
         </div>
     )
 }

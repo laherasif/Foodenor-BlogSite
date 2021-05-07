@@ -42,6 +42,7 @@
 
 .footer__widget ul li {
     list-style: none;
+    text-align:left;
 }
 
 .footer__widget ul li a {
@@ -105,7 +106,7 @@ letter-spacing: 0.1em;
 }
 
 #footer__newslatter form input::-webkit-input-placeholder {
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
     font-size: 26px;
@@ -114,7 +115,7 @@ letter-spacing: 0.1em;
 }
 
 #footer__newslatter form input::-moz-placeholder {
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
     font-size: 26px;
@@ -123,7 +124,7 @@ letter-spacing: 0.1em;
 }
 
 #footer__newslatter form input:-ms-input-placeholder {
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
     font-size: 26px;
@@ -132,7 +133,7 @@ letter-spacing: 0.1em;
 }
 
 #footer__newslatter form input::-ms-input-placeholder {
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
@@ -141,7 +142,7 @@ letter-spacing: 0.1em;
 }
 
 #footer__newslatter form input::placeholder {
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
     font-size: 20px;

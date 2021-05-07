@@ -22,7 +22,7 @@ export default function Footer() {
                         <div className="col-lg-2 col-md-3 col-sm-5">
                             <div className="footer__widget">
                                 <h6>CATAGORIES</h6>
-                                <ul>
+                                <ul style={{textAlign:'left'}}>
                                     <li><Link to="/" className="bottom-links">Home</Link></li>
                                     <li><Link to="/" className="bottom-links">About</Link></li>
                                     <li><Link to="/" className="bottom-links">Blogs</Link></li>
