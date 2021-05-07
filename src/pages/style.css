@@ -162,7 +162,6 @@ body {
 .section-discover {
     width: 100%;
     margin-top: 6rem;
-    overflow: hidden;
 }
 
 .section-discover .discover {
@@ -266,8 +265,11 @@ body {
     color: #BA0C2F;
 }
 
+
+
 #reviews {
-    width: 100%;
+    width: 389px;
+    margin-left: -20px;
     padding: 10px;
     border-radius: 8px;
     background: rgba(253, 145, 145, 0.1);
@@ -291,7 +293,7 @@ body {
 #review-card li {
     margin-top: 20px;
     list-style: none;
-    display: flex;
+    /* display: flex; */
     background: #ffffff;
     box-shadow: 0px 16px 40px rgba(112, 144, 176, 0.2);
     border-radius: 8px;
@@ -301,18 +303,21 @@ body {
 
 #review-card .review-data {
     display: flex;
+    width: 100%;
     justify-content: space-between;
 }
 
 #review-card .review-data .title {
-    padding-left: 6.5rem;
+    width: 100%;
 }
 
 #review-card .review-data .title h4 {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
+    text-align: left;
     font-size: 24px;
+    padding-left: 93px;
     line-height: 42px;
     color: #000000;
 }
@@ -323,12 +328,14 @@ body {
     font-weight: normal;
     font-size: 16px;
     line-height: 24px;
+    padding-left: 5.8rem;
     text-align: left;
     color: #404040;
 }
 
 #review-card .review-data .title-star {
     padding: 10px;
+    width: 140px;
 }
 
 #review-card .review-data .title-star span {
@@ -345,7 +352,7 @@ body {
 #review-card .review-left {
     position: absolute;
     top: 17.7%;
-    width: 95px;
+    width: 90px;
     height: 100px;
     background: #902E92;
     border-radius: 8px 0px 0px 8px;
@@ -383,9 +390,9 @@ body {
 #review-card #review-Don {
     position: absolute;
     top: 44.5%;
-    left: 25px;
+    left: 5px;
     right: 0px;
-    width: 95px;
+    width: 90px;
     height: 100px;
     background: #A40000;
     border-radius: 8px 0px 0px 8px;
@@ -423,9 +430,9 @@ body {
 #review-card #review-Go {
     position: absolute;
     top: 71.5%;
-    left: 26px;
+    left: 5px;
     right: 0px;
-    width: 95px;
+    width: 90px;
     height: 100px;
     background: #154200;
     border-radius: 8px 0px 0px 8px;
@@ -459,42 +466,4 @@ body {
     color: #FFFAFA;
 }
 
-/*--------------------------------- Responsive Media Quaries -----------------------------*/
 
-@media only screen and (min-width: 1600px) and (max-width: 1900px) {}
-
-@media only screen and (min-width: 1200px) and (max-width: 1599px) {}
-
-@media only screen and (min-width: 1200px) {
-    .container {
-        max-width: 1190px;
-    }
-}
-
-/* Medium Device = 1200px */
-
-@media only screen and (min-width: 992px) and (max-width: 1199px) {}
-
-/* Tablet Device = 768px */
-
-@media only screen and (min-width: 768px) and (max-width: 991px) {}
-
-/* Wide Mobile = 480px */
-
-@media only screen and (max-width: 767px) {}
-
-/* Small Device = 320px */
-
-@media only screen and (max-width: 479px) {
-    .footer__newslatter form {
-        text-align: center;
-    }
-    .footer__newslatter form input {
-        margin-bottom: 10px;
-    }
-    .footer__newslatter form button {
-        position: relative;
-        right: 0;
-        top: 0;
-    }
-}

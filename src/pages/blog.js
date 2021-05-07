@@ -24,7 +24,7 @@ export default function Blog() {
 
                     <section>
                         <div className="row">
-                            <div className="col-lg-7 col-md-12">
+                            <div className="col-lg-7 col-md-12 ">
                                 <div className="blog-section-image">
                                     <img src="images/food.jpg" alt="lunch" className="river" />
                                     <img src="images/FoodieNor logo design .png" className="logo" alt="food_logo" />
@@ -64,7 +64,7 @@ export default function Blog() {
                     <section>
                         <div className="food-cards">
                             <div className="row">
-                                <div className="col-md-4">
+                                <div className=" col-lg-4 col-md-12">
                                     <div className="card">
                                        <Link to="/title"><img className="card-img-top" src="images/fastfood.jpg" alt="Card cap" /></Link>
                                         <div className="card-body">
@@ -120,7 +120,7 @@ export default function Blog() {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-md-4">
+                                <div className="col-lg-4 col-md-12">
                                     <div className="card">
                                     <Link to="/title">  <img className="card-img-top" src="images/fastfood.jpg" alt="Card cap" /></Link>
                                         <div className="card-body">
@@ -176,7 +176,7 @@ export default function Blog() {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-md-4">
+                                <div className="col-lg-4 col-md-12">
                                     <div className="card">
                                     <Link to="/title"> <img className="card-img-top" src="images/fastfood.jpg" alt="Card cap" /></Link>
                                         <div className="card-body">

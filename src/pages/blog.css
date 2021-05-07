@@ -52,7 +52,7 @@
 }
 
 .section-filter input[type=text] {
-    width: 464.82px;
+    /* width: 464.82px; */
     height: 48px;
     background: #EEEEEE;
     box-shadow: 6px 16px 20px 5px rgba(170, 170, 170, 0.2);
@@ -113,7 +113,7 @@
 
 
 .section-filter textarea {
-    width: 464.82px;
+    /* width: 464.82px; */
     margin-top: 3rem;
     background: #EEEEEE;
     box-shadow: 6px 16px 20px 5px rgba(170, 170, 170, 0.2);
@@ -252,4 +252,48 @@
 .card-footer .stars .checked {
     color: #FFA723;
     padding-left: 5px;
+}
+
+
+
+/*--------------------------------- Responsive Media Quaries -----------------------------*/
+
+@media only screen and (min-width: 1600px) and (max-width: 1900px) {}
+
+@media only screen and (min-width: 1200px) and (max-width: 1599px) {
+    .container {
+        max-width: 1198px;
+        /* border: 1pt solid yellow */
+    }
+
+}
+
+@media only screen and (min-width: 1200px) {
+    .container {
+        max-width: 1190px;
+    }
+    
+}
+
+/* Medium Device = 1200px */
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {}
+
+/* Tablet Device = 768px */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+   
+    
+}
+
+/* Wide Mobile = 480px */
+
+@media only screen and (max-width: 767px) {
+    
+}
+
+/* Small Device = 320px */
+
+@media only screen and (max-width: 479px) {
+   
 }

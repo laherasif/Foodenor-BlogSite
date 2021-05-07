@@ -25,7 +25,7 @@ export default function Home() {
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Odio congue egestas ut vitae felis, pellentesque
                       </p>
 
-                    <Link to="/blog"  className="button  arrow">Explore</Link>
+                    <Link to="/blog" className="button  arrow">Explore</Link>
 
                   </div>
                 </div>
@@ -62,7 +62,7 @@ export default function Home() {
                       <ul>
                         <li >Appolizer</li>
                         <li >Main Dishes</li>
-                        <li style={{borderBottom:'none' , color:'#00205B'}}>Sweet Deesert</li>
+                        <li style={{ borderBottom: 'none', color: '#00205B' }}>Sweet Deesert</li>
                       </ul>
                     </div>
 
@@ -85,12 +85,12 @@ export default function Home() {
                       </div>
 
                       <p className="card-text"> This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    
-                       <div className="explore-more">
-                         <button><i className="fa fa-long-arrow-right"></i></button>
-                         <p>Explore More</p>
-                       </div>
-                    
+
+                      <div className="explore-more">
+                        <button><i className="fa fa-long-arrow-right"></i></button>
+                        <p>Explore More</p>
+                      </div>
+
                     </div>
                   </div>
                 </div>
@@ -101,16 +101,19 @@ export default function Home() {
                       <ul id="review-card">
                         <li>
                           <div className="review-data"  >
-                            <div className="title">
+                            <div className="title" >
                               <h4>Fedore</h4>
-                              <p>Loram ispum is a paragraph and </p>
-                            </div>
-                            <div className="title-star">
-                              <span className="fa fa-star checked"></span>
-                              <span className="fa fa-star checked"></span>
-                              <span className="fa fa-star checked"></span>
-                              <span className="fa fa-star"></span>
-                              <span className="fa fa-star"></span>
+                         
+
+                              <p >Loram ispum is a paragraph   </p>
+                          
+                              </div>
+                              <div className="title-star">
+                                <span className="fa fa-star checked"></span>
+                                <span className="fa fa-star checked"></span>
+                                <span className="fa fa-star checked"></span>
+                                <span className="fa fa-star"></span>
+                                <span className="fa fa-star"></span>
 
                             </div>
 
@@ -126,8 +129,8 @@ export default function Home() {
                         <li>
                           <div className="review-data">
                             <div className="title">
-                              <h4>Fedore</h4>
-                              <p>hellow this is</p>
+                              <h4>Doe</h4>
+                              <p>Loram ispum is a paragraph  </p>
                             </div>
                             <div className="title-star">
                               <span className="fa fa-star checked"></span>
@@ -142,15 +145,15 @@ export default function Home() {
                         </li>
                         <div id="review-Don">
                           <div className="para">
-                            <p>J</p>
+                            <p>D</p>
 
                           </div>
                         </div>
                         <li>
                           <div className="review-data">
                             <div className="title">
-                              <h4>Fedore</h4>
-                              <p>hellow this is</p>
+                              <h4>Gigi</h4>
+                              <p>Loram ispum is a paragraph  </p>
                             </div>
                             <div className="title-star">
                               <span className="fa fa-star checked"></span>
@@ -161,16 +164,16 @@ export default function Home() {
 
                             </div>
                             <div id="review-Go">
-                          <div className="para">
-                            <p>J</p>
+                              <div className="para">
+                                <p>G</p>
+
+                              </div>
+                            </div>
 
                           </div>
-                        </div>
 
-                          </div>
-                          
                         </li>
-                        
+
                       </ul>
 
                     </div>
@@ -179,6 +182,7 @@ export default function Home() {
 
               </div>
             </div>
+
           </section>
 
 
@@ -186,7 +190,7 @@ export default function Home() {
 
       </div>
 
-     <Footer/>
+      <Footer />
 
 
     </div>
