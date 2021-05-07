@@ -124,9 +124,7 @@
 /* Medium Device = 1200px */
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-    .about{
-        background: green
-    }
+   
     .about .container{
         max-width: 1190px;
     }
@@ -136,9 +134,7 @@
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 
-    .about{
-        background: pink
-    }
+    
     .about .container{
         max-width: 1190px;
     }
@@ -165,23 +161,23 @@
         color: #404040;
     }
 
-    .about section {
+    .about .about-section {
         width: 100%;
-        margin-top: 1rem;
-        overflow: hidden
+        overflow: hidden;
+        margin-top: -40px;
     }
 
-    section .section-vision{
+    .about .about-section .first-section , .second-section , .third-section .section-vision{
         width: 100%;
         height: 100%;
     
     }
     
-    .section-vision h2{
+    .about .about-section .first-section  .section-vision h2{
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 800;
-        font-size: 50px;
+        font-size: 45px;
         padding-top: 4rem;
         line-height: 73px;
        
@@ -189,7 +185,7 @@
         color: #000000
     }
     
-    .section-vision .loram{
+    .about .about-section .first-section  .section-vision .loram{
         font-family: 'Poppins';
         font-style: normal;
         font-weight: normal;
@@ -199,7 +195,7 @@
         color: #404040;
     }
     
-    .section-vision .loram2{
+    .about .about-section .first-section  .section-vision .loram2{
         font-family: 'Poppins';
         font-style: normal;
         font-weight: normal;
@@ -208,27 +204,25 @@
         color: #404040;
     }
     
-    .section-image{
+    .about .about-section .first-section .section-image{
         width:100%;
         overflow: hidden;
     }
     
-    .section-image img{
+    .about .about-section .first-section  .section-image img{
         width: 100%;
         height: 510px;
     
     }
 
-    .section-write{
-        margin-left: -25px;
-    }
+    
 
-    .section-write h2{
+    .about .about-section .second-section  .section-vision h2{
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 800;
         text-align: left;
-        font-size: 50px;
+        font-size: 45px;
         padding-top: 4rem;
         line-height: 73px;
        
@@ -236,18 +230,18 @@
         color: #000000
     }
     
-    .section-write .loram{
+    .about .about-section .second-section  .section-vision .loram{
         font-family: 'Poppins';
         font-style: normal;
         font-weight: normal;
-        font-size: 18px;
+        font-size: 17px;
         padding-top: 2rem;
         
         line-height: 33px;
         color: #404040;
     }
     
-    .section-write .loram2{
+    .about .about-section .second-section  .section-vision .loram2{
         font-family: 'Poppins';
         font-style: normal;
         font-weight: normal;
@@ -257,19 +251,50 @@
         color: #404040;
     }
 
-    .bulluts-list{
-        width:100%;
+    .about .about-section .third-section  .section-vision h2{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 45px;
+        padding-top: 4rem;
+        line-height: 73px;
+       
+        letter-spacing: 0.04em;
+        color: #000000
     }
     
-    .bulluts-list ul li {
+    .about .about-section .third-section  .section-vision .loram{
         font-family: 'Poppins';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 33px;
-    color: #000000;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 17px;
+        padding-top: 2rem;
+        line-height: 33px;
+        color: #404040;
+    }
+    
+    .about .about-section .third-section  .section-vision .loram2{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 17px;
+        line-height: 30px;
+        color: #404040;
+    }
+    
+    .about .about-section .third-section .section-image{
+        width:100%;
+        overflow: hidden;
+    }
+    
+    .about .about-section .third-section  .section-image img{
+        width: 100%;
+        height: 510px;
+    
     }
 
+
+    
 
     
     
@@ -283,7 +308,6 @@
     .about{
         width: 100%;
         height: 100%;
-        background-color:red;
     }
 
     .about .container{
@@ -314,26 +338,53 @@
         color: #404040;
     }
 
+    .about .about-section{
+        width: 100%;
+    }
+    
     .about .about-section .first-section , .second-section , .third-section  {
         width: 100%;
-        background: blue;
         overflow: hidden
     }
+    
+    .about .about-section .first-section{
+        margin-top:5px;
 
-    .about .about-section .second-section{
-        /* margin-top: -0px; */
     }
+
+    
     .first-section .section-vision{
         width: 100%;
         height: 100%;
     
     }
+
+    /* .about .about-section .second-section .section-vision h2   {
+        margin-left: -30px
+        
+    } */
+    .about .about-section .second-section{
+        margin-top: 30px;
+    }
+
+    /* .about .about-section .second-section .section-vision .loram   {
+        margin-left: -10px
+        
+    }
+    .about .about-section .second-section .section-vision .loram2   {
+        margin-left: -30px
+        
+    } */
+
+    .about .about-section .third-section{
+        margin-top: 10px
+    }
     
-    .section-vision h2{
+    .about .about-section .first-section .section-vision h2{
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 800;
-        font-size: 50px;
+        font-size: 40px;
         padding-top: 4rem;
         line-height: 73px;
        
@@ -341,7 +392,7 @@
         color: #000000
     }
     
-    .section-vision .loram{
+    .about .about-section .first-section .section-vision .loram{
         font-family: 'Poppins';
         font-style: normal;
         font-weight: normal;
@@ -352,7 +403,7 @@
         color: #404040;
     }
     
-    .section-vision .loram2{
+    .about .about-section .first-section .section-vision .loram2{
         font-family: 'Poppins';
         font-style: normal;
         font-weight: normal;
@@ -362,69 +413,18 @@
         color: #404040;
     }
     
-    .section-image{
+    .about .about-section .first-section  .section-image{
         width:100%;
         overflow: hidden;
     }
     
-    .section-image img{
+    .about .about-section .first-section .section-image img{
         width: 100%;
         height: 100%;
     
     }
 
-    .section-write{
-        margin-left: -25px;
-    }
-
-    .section-write h2{
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 800;
-        text-align: left;
-        font-size: 50px;
-        padding-top: 4rem;
-        line-height: 73px;
-       
-        letter-spacing: 0.04em;
-        color: #000000
-    }
     
-    .section-write .loram{
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: normal;
-        font-size: 18px;
-        padding-top: 2rem;
-        
-        line-height: 33px;
-        color: #404040;
-    }
-    
-    .section-write .loram2{
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: normal;
-        font-size: 18px;
-        
-        line-height: 33px;
-        color: #404040;
-    }
-
-    .bulluts-list{
-        width:100%;
-    }
-    
-    .bulluts-list ul li {
-        font-family: 'Poppins';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 33px;
-    color: #000000;
-    }
-
-
 }
 
 /* Small Device = 320px */
@@ -519,55 +519,7 @@
     
     }
 
-    .section-write{
-        margin-left: -25px;
-    }
-
-    .section-write h2{
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 800;
-        text-align: left;
-        font-size: 35px;
-        padding-top: 4rem;
-        line-height: 73px;
-        letter-spacing: 0.04em;
-        color: #000000
-    }
     
-    .section-write .loram{
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: normal;
-        font-size: 16px;
-        padding-top: 2rem;
-        
-        line-height: 33px;
-        color: #404040;
-    }
-    
-    .section-write .loram2{
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: normal;
-        font-size: 16px;
-        
-        line-height: 33px;
-        color: #404040;
-    }
-
-    .bulluts-list{
-        width:100%;
-    }
-    
-    .bulluts-list ul li {
-        font-family: 'Poppins';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 33px;
-    color: #000000;
-    }
 
     
 }

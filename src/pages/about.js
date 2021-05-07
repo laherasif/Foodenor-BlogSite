@@ -47,7 +47,7 @@ export default function About() {
                                     </div>
                                 </div>
                                 <div className="col-lg-6 col-md-6">
-                                    <div className="section-vision" style={{ paddingLeft: '30px' }}>
+                                    <div className="section-vision" >
                                         <h2>Our Approch</h2>
                                         <p className="loram">
                                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Odio congue egestas ut vitae felis, pellentesqueLorem ipsum dolor sit amet, consectetur adipiscing elit. Odio congue egestas ut vitae felis, pellentesque
