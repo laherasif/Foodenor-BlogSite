@@ -8,7 +8,6 @@ export default function Contact() {
         <div >
 
             <div className="contact">
-
                 <div className="container">
                     <div className="color-form">
                         <div className="contact-form">
@@ -24,22 +23,22 @@ export default function Contact() {
                     <div className="form-data">
                         <div className="form">
                             <div className="row">
-                                <div className="col-md-7">
+                                <div className="col-lg-7 col-md-12 ">
                                     <div className="contact-forms">
                                         <h2>Send us a message</h2>
                                         <div className="form-group row">
-                                            <div className="col-md-6">
+                                            <div className="col-lg-6 col-md-12">
                                                 <input type="text" placeholder="enter value" className="form-control" name="" />
                                             </div>
-                                            <div className="col-md-6">
+                                            <div className="col-lg-6 col-md-12">
                                                 <input type="text" placeholder="enter value" className="form-control" name="" />
                                             </div>
                                         </div>
                                         <div className="form-group row">
-                                            <div className="col-md-6">
+                                            <div className="col-lg-6 col-md-12">
                                                 <input type="text" placeholder="enter value" className="form-control" name="" />
                                             </div>
-                                            <div className="col-md-6">
+                                            <div className="col-lg-6 col-md-12">
                                                 <input type="text" placeholder="enter value" className="form-control" name="" />
                                             </div>
                                         </div>
@@ -53,14 +52,17 @@ export default function Contact() {
                                         <div className="form-group row">
 
                                             <div className="col-md-12">
-                                                <button>Submit</button>
+                                                <div className="sub-btn">
+
+                                                <sapn className="sub">Submit</sapn>
+                                                </div>
                                             </div>
                                         </div>
 
                                     </div>
 
                                 </div>
-                                <div className="col-md-5">
+                                <div className="col-lg-5 col-md-12">
                                     <div className="social-form">
                                         <h3>Info</h3>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>

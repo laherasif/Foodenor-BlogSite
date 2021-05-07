@@ -35,16 +35,16 @@
 
 .contact-form .loram{
     font-family: Poppins;
-font-style: normal;
-font-weight: normal;
-font-size: 20px;
-line-height: 33px;
-align-items: center;
-text-align: center;
-margin-left: 16rem;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 33px;
+    align-items: center;
+    text-align: center;
+    margin-left: 16rem;
     margin-right: 16rem;
-color: #FFFFFF;
-padding-top: 20px;
+    color: #FFFFFF;
+    padding-top: 20px;
    }
 
    .form-data{
@@ -65,16 +65,13 @@ padding-top: 20px;
 
 .form .contact-forms h2{
     font-family: Poppins;
-font-style: normal;
-font-weight: 600;
-font-size: 30px;
-line-height: 45px;
-
-/* display: flex; */
-padding: 20px 0px 20px 0px;
-letter-spacing: 0.04em;
-
-color: #00205B;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+    padding: 20px 0px 20px 0px;
+    letter-spacing: 0.04em;
+    color: #00205B;
 }
 
 .contact-forms .form-group input[type=text]{
@@ -100,36 +97,31 @@ color: #00205B;
     padding: 40px 0px 0px 20px;
     height: 100%;
     background: #EEEEEE;
-border-radius: 0px 8px 8px 0px;
+    border-radius: 0px 8px 8px 0px;
 }
 
 .social-form h3{
     font-family: Poppins;
-font-style: normal;
-font-weight: 600;
-font-size: 30px;
-line-height: 45px;
-
-display: flex;
-align-items: center;
-letter-spacing: 0.04em;
-
-color: #00205B;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: #00205B;
 }
 .social-form p{
-font-family: Yellowtail;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 22px;
-padding-top: 20px;
-/* identical to box height */
-
-display: flex;
-align-items: center;
-letter-spacing: 0.1em;
-
-color: #404040;
+   font-family: Yellowtail;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 14px;
+   line-height: 22px;
+   padding-top: 20px;
+   display: flex;
+   align-items: center;
+   letter-spacing: 0.1em;
+   color: #404040;
 }
    
 #social-links .links {
@@ -144,4 +136,90 @@ color: #404040;
 	text-align: center;
 	margin-right: 6px;
 	margin-bottom: 5px;
+}
+
+.sub-btn{
+    float:right;
+    margin-top:10px;
+}
+.sub-btn .sub{
+    background: #FFFFFF;
+box-shadow: 0px 16px 40px rgba(112, 144, 176, 0.2);
+border-radius: 20px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 27px;
+text-align: center;
+letter-spacing: 0.04em;
+padding: 5px 20px 5px 20px;
+
+color: #BA0C2F;
+border:1pt solid #BA0C2F;
+
+}
+
+
+/*--------------------------------- Responsive Media Quaries -----------------------------*/
+
+@media only screen and (min-width: 1600px) and (max-width: 1900px) {}
+
+@media only screen and (min-width: 1200px) and (max-width: 1599px) {}
+
+@media only screen and (min-width: 1200px) {
+    .container {
+        max-width: 1190px;
+    }
+}
+
+/* Medium Device = 1200px */
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+      .contact{
+    width: 100%;
+    background:yellow;
+
+}
+    .contact .container{
+        max-width: 1190px;
+
+    }
+}
+
+/* Tablet Device = 768px */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    .contact{
+    width: 100%;
+    background:red;
+
+}
+    .contact .container{
+        max-width: 1190px;
+
+    }
+
+}
+
+/* Wide Mobile = 480px */
+
+@media only screen and (max-width: 767px) {
+
+     .contact{
+    width: 100%;
+    background:blue;
+
+}
+    .contact .container{
+        max-width: 1190px;
+
+    }
+}
+
+/* Small Device = 320px */
+
+@media only screen and (max-width: 479px) {
+   
 }
