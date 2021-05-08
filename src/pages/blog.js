@@ -24,15 +24,15 @@ export default function Blog() {
 
                     <section>
                         <div className="row">
-                            <div className="col-lg-7 col-md-12 ">
+                            <div className="col-lg-7 col-md-7 ">
                                 <div className="blog-section-image">
                                     <img src="images/food.jpg" alt="lunch" className="river" />
                                     <img src="images/FoodieNor logo design .png" className="logo" alt="food_logo" />
-                                    
+
 
                                 </div>
                             </div>
-                            <div className="col-lg-5 col-md-12">
+                            <div className="col-lg-5 col-md-5">
 
                                 <div className="section-filter">
                                     <form>
@@ -47,7 +47,7 @@ export default function Blog() {
                                         <span className="fa fa-filter form-control-feedback" ></span>
                                         <p className="filter"></p>
                                         <span className="filter-text">Filter</span>
-                                        <i className={ show ? "fa fa-plus" :  "fa fa-minus"} onClick={()=> Toggle()}></i>
+                                        <i className={show ? "fa fa-plus" : "fa fa-minus"} onClick={() => Toggle()}></i>
                                     </div>
                                     {show ?
                                         <div className="textfield">
@@ -61,359 +61,361 @@ export default function Blog() {
                         </div>
                     </section>
 
-                    <section>
-                        <div className="food-cards">
-                            <div className="row">
-                                <div className=" col-lg-4 col-md-12">
-                                    <div className="card">
-                                       <Link to="/title"><img className="card-img-top" src="images/fastfood.jpg" alt="Card cap" /></Link>
-                                        <div className="card-body">
-                                            <h3 className="card-title">
-                                                Lorem ispurm
+                    <section className="section-card">
+
+                        <main className="grid">
+                        <article>
+                                <Link to="/title"> <img className="card-img-top" src="images/fastfood.jpg" alt="Card cap" /></Link>
+                                <div className="text">
+                                    <h3 className="card-title">
+                                        Lorem ispurm
                                                 <br></br>
-                                                Heading
+                                        Heading
                                                 </h3>
-                                            <p className="card-text">Loram ispum is a paragraph which is used for dummy text purpose.</p>
-                                        </div>
-                                        <div className="card-btn">
-                                            <ul>
-                                                <li>
-                                                    <span className="pizza">
-                                                        pizza
+                                    <p className="card-text">Loram ispum is a paragraph which is used for dummy text purpose.</p>
+                                </div>
+                                <div className="card-btn">
+                                    <ul>
+                                        <li>
+                                            <span className="pizza">
+                                                pizza
                                                        <i className="fa fa-close"></i>
-                                                    </span>
+                                            </span>
 
-                                                </li>
-                                                <li>
-                                                    <span className="pizza">
-                                                        burger
+                                        </li>
+                                        <li>
+                                            <span className="pizza">
+                                                burger
                                                            <i className="fa fa-close"></i>
-                                                    </span>
-                                                </li>
-                                                <li>
-                                                    <span className="pizza">
-                                                        noodles
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span className="pizza">
+                                                noodles
                                                            <i className="fa fa-close"></i>
-                                                    </span>
-                                                </li>
-                                                <li>
-                                                    <span className="pizza">
-                                                        pasta
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span className="pizza">
+                                                pasta
                                                            <i className="fa fa-close"></i>
-                                                    </span>
-                                                </li>
-                                            </ul>
+                                            </span>
+                                        </li>
+                                        
+                                    </ul>
 
-                                        </div>
-                                        <div className="card-footer">
-                                            <div className="date">
-                                                <p>01 May 2021</p>
+                                </div>
 
-                                            </div>
-                                            <div className="stars" >
-                                                <span className="fa fa-star checked"></span>
-                                                <span className="fa fa-star checked"></span>
-                                                <span className="fa fa-star checked"></span>
-                                                <span className="fa fa-star checked"></span>
-                                                <span className="fa fa-star"></span>
-                                            </div>
-                                        </div>
+                                <div className="card-footer ">
+                                    <div className="date">
+                                        <p>01 May 2021</p>
+
+                                    </div>
+                                    <div className="stars" >
+                                        <span className="fa fa-star checked"></span>
+                                        <span className="fa fa-star checked"></span>
+                                        <span className="fa fa-star checked"></span>
+                                        <span className="fa fa-star checked"></span>
+                                        <span className="fa fa-star"></span>
                                     </div>
                                 </div>
-                                <div className="col-lg-4 col-md-12">
-                                    <div className="card">
-                                    <Link to="/title">  <img className="card-img-top" src="images/fastfood.jpg" alt="Card cap" /></Link>
-                                        <div className="card-body">
-                                            <h3 className="card-title">
-                                                Lorem ispurm
+                            </article>
+                                <article>
+                                <Link to="/title"> <img className="card-img-top" src="images/fastfood.jpg" alt="Card cap" /></Link>
+                                <div className="text">
+                                    <h3 className="card-title">
+                                        Lorem ispurm
                                                 <br></br>
-                                                Heading
+                                        Heading
                                                 </h3>
-                                            <p className="card-text">Loram ispum is a paragraph which is used for dummy text purpose.</p>
-                                        </div>
-                                        <div className="card-btn">
-                                            <ul>
-                                                <li>
-                                                    <span className="pizza">
-                                                        pizza
+                                    <p className="card-text">Loram ispum is a paragraph which is used for dummy text purpose.</p>
+                                </div>
+                                <div className="card-btn">
+                                    <ul>
+                                        <li>
+                                            <span className="pizza">
+                                                pizza
                                                        <i className="fa fa-close"></i>
-                                                    </span>
+                                            </span>
 
-                                                </li>
-                                                <li>
-                                                    <span className="pizza">
-                                                        burger
+                                        </li>
+                                        <li>
+                                            <span className="pizza">
+                                                burger
                                                            <i className="fa fa-close"></i>
-                                                    </span>
-                                                </li>
-                                                <li>
-                                                    <span className="pizza">
-                                                        noodles
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span className="pizza">
+                                                noodles
                                                            <i className="fa fa-close"></i>
-                                                    </span>
-                                                </li>
-                                                <li>
-                                                    <span className="pizza">
-                                                        pasta
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span className="pizza">
+                                                pasta
                                                            <i className="fa fa-close"></i>
-                                                    </span>
-                                                </li>
-                                            </ul>
+                                            </span>
+                                        </li>
+                                        
+                                    </ul>
 
-                                        </div>
-                                        <div className="card-footer">
-                                            <div className="date">
-                                                <p>01 May 2021</p>
+                                </div>
 
-                                            </div>
-                                            <div className="stars" >
-                                                <span className="fa fa-star checked"></span>
-                                                <span className="fa fa-star checked"></span>
-                                                <span className="fa fa-star checked"></span>
-                                                <span className="fa fa-star checked"></span>
-                                                <span className="fa fa-star"></span>
-                                            </div>
-                                        </div>
+                                <div className="card-footer ">
+                                    <div className="date">
+                                        <p>01 May 2021</p>
+
+                                    </div>
+                                    <div className="stars" >
+                                        <span className="fa fa-star checked"></span>
+                                        <span className="fa fa-star checked"></span>
+                                        <span className="fa fa-star checked"></span>
+                                        <span className="fa fa-star checked"></span>
+                                        <span className="fa fa-star"></span>
                                     </div>
                                 </div>
-                                <div className="col-lg-4 col-md-12">
-                                    <div className="card">
-                                    <Link to="/title"> <img className="card-img-top" src="images/fastfood.jpg" alt="Card cap" /></Link>
-                                        <div className="card-body">
-                                            <h3 className="card-title">
-                                                Lorem ispurm
+                            </article>
+                            <article>
+                                <Link to="/title"> <img className="card-img-top" src="images/fastfood.jpg" alt="Card cap" /></Link>
+                                <div className="text">
+                                    <h3 className="card-title">
+                                        Lorem ispurm
                                                 <br></br>
-                                                Heading
+                                        Heading
                                                 </h3>
-                                            <p className="card-text">Loram ispum is a paragraph which is used for dummy text purpose.</p>
-
-                                        </div>
-                                        <div className="card-btn">
-                                            <ul>
-                                                <li>
-                                                    <span className="pizza">
-                                                        pizza
+                                    <p className="card-text">Loram ispum is a paragraph which is used for dummy text purpose.</p>
+                                </div>
+                                <div className="card-btn">
+                                    <ul>
+                                        <li>
+                                            <span className="pizza">
+                                                pizza
                                                        <i className="fa fa-close"></i>
-                                                    </span>
+                                            </span>
 
-                                                </li>
-                                                <li>
-                                                    <span className="pizza">
-                                                        burger
+                                        </li>
+                                        <li>
+                                            <span className="pizza">
+                                                burger
                                                            <i className="fa fa-close"></i>
-                                                    </span>
-                                                </li>
-                                                <li>
-                                                    <span className="pizza">
-                                                        noodles
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span className="pizza">
+                                                noodles
                                                            <i className="fa fa-close"></i>
-                                                    </span>
-                                                </li>
-                                                <li>
-                                                    <span className="pizza">
-                                                        pasta
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span className="pizza">
+                                                pasta
                                                            <i className="fa fa-close"></i>
-                                                    </span>
-                                                </li>
-                                            </ul>
+                                            </span>
+                                        </li>
+                                        
+                                    </ul>
 
-                                        </div>
-                                        <div className="card-footer">
-                                            <div className="date">
-                                                <p>01 May 2021</p>
+                                </div>
 
-                                            </div>
-                                            <div className="stars" >
-                                                <span className="fa fa-star checked"></span>
-                                                <span className="fa fa-star checked"></span>
-                                                <span className="fa fa-star checked"></span>
-                                                <span className="fa fa-star checked"></span>
-                                                <span className="fa fa-star"></span>
-                                            </div>
-                                        </div>
+                                <div className="card-footer ">
+                                    <div className="date">
+                                        <p>01 May 2021</p>
+
+                                    </div>
+                                    <div className="stars" >
+                                        <span className="fa fa-star checked"></span>
+                                        <span className="fa fa-star checked"></span>
+                                        <span className="fa fa-star checked"></span>
+                                        <span className="fa fa-star checked"></span>
+                                        <span className="fa fa-star"></span>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
+                            </article>
+
+                        </main>
+
                     </section>
-                    <section>
-                        <div className="food-cards">
-                            <div className="row">
-                                <div className="col-md-4">
-                                    <div className="card">
-                                    <Link to="/title"> <img className="card-img-top" src="images/fastfood.jpg" alt="Card cap" /></Link>
-                                        <div className="card-body">
-                                            <h3 className="card-title">
-                                                Lorem ispurm
+                    <section >
+
+                        <main className="grid">
+                        <article>
+                                <Link to="/title"> <img className="card-img-top" src="images/fastfood.jpg" alt="Card cap" /></Link>
+                                <div className="text">
+                                    <h3 className="card-title">
+                                        Lorem ispurm
                                                 <br></br>
-                                                Heading
+                                        Heading
                                                 </h3>
-                                            <p className="card-text">Loram ispum is a paragraph which is used for dummy text purpose.</p>
-                                        </div>
-                                        <div className="card-btn">
-                                            <ul>
-                                                <li>
-                                                    <span className="pizza">
-                                                        pizza
+                                    <p className="card-text">Loram ispum is a paragraph which is used for dummy text purpose.</p>
+                                </div>
+                                <div className="card-btn">
+                                    <ul>
+                                        <li>
+                                            <span className="pizza">
+                                                pizza
                                                        <i className="fa fa-close"></i>
-                                                    </span>
+                                            </span>
 
-                                                </li>
-                                                <li>
-                                                    <span className="pizza">
-                                                        burger
+                                        </li>
+                                        <li>
+                                            <span className="pizza">
+                                                burger
                                                            <i className="fa fa-close"></i>
-                                                    </span>
-                                                </li>
-                                                <li>
-                                                    <span className="pizza">
-                                                        noodles
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span className="pizza">
+                                                noodles
                                                            <i className="fa fa-close"></i>
-                                                    </span>
-                                                </li>
-                                                <li>
-                                                    <span className="pizza">
-                                                        pasta
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span className="pizza">
+                                                pasta
                                                            <i className="fa fa-close"></i>
-                                                    </span>
-                                                </li>
-                                            </ul>
+                                            </span>
+                                        </li>
+                                        
+                                    </ul>
 
-                                        </div>
-                                        <div className="card-footer">
-                                            <div className="date">
-                                                <p>01 May 2021</p>
+                                </div>
 
-                                            </div>
-                                            <div className="stars" >
-                                                <span className="fa fa-star checked"></span>
-                                                <span className="fa fa-star checked"></span>
-                                                <span className="fa fa-star checked"></span>
-                                                <span className="fa fa-star checked"></span>
-                                                <span className="fa fa-star"></span>
-                                            </div>
-                                        </div>
+                                <div className="card-footer ">
+                                    <div className="date">
+                                        <p>01 May 2021</p>
+
+                                    </div>
+                                    <div className="stars" >
+                                        <span className="fa fa-star checked"></span>
+                                        <span className="fa fa-star checked"></span>
+                                        <span className="fa fa-star checked"></span>
+                                        <span className="fa fa-star checked"></span>
+                                        <span className="fa fa-star"></span>
                                     </div>
                                 </div>
-                                <div className="col-md-4">
-                                    <div className="card">
-                                    <Link to="/title"><img className="card-img-top" src="images/fastfood.jpg" alt="Card cap" /></Link>
-                                        <div className="card-body">
-                                            <h3 className="card-title">
-                                                Lorem ispurm
+                            </article>
+                                <article>
+                                <Link to="/title"> <img className="card-img-top" src="images/fastfood.jpg" alt="Card cap" /></Link>
+                                <div className="text">
+                                    <h3 className="card-title">
+                                        Lorem ispurm
                                                 <br></br>
-                                                Heading
+                                        Heading
                                                 </h3>
-                                            <p className="card-text">Loram ispum is a paragraph which is used for dummy text purpose.</p>
-                                        </div>
-                                        <div className="card-btn">
-                                            <ul>
-                                                <li>
-                                                    <span className="pizza">
-                                                        pizza
+                                    <p className="card-text">Loram ispum is a paragraph which is used for dummy text purpose.</p>
+                                </div>
+                                <div className="card-btn">
+                                    <ul>
+                                        <li>
+                                            <span className="pizza">
+                                                pizza
                                                        <i className="fa fa-close"></i>
-                                                    </span>
+                                            </span>
 
-                                                </li>
-                                                <li>
-                                                    <span className="pizza">
-                                                        burger
+                                        </li>
+                                        <li>
+                                            <span className="pizza">
+                                                burger
                                                            <i className="fa fa-close"></i>
-                                                    </span>
-                                                </li>
-                                                <li>
-                                                    <span className="pizza">
-                                                        noodles
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span className="pizza">
+                                                noodles
                                                            <i className="fa fa-close"></i>
-                                                    </span>
-                                                </li>
-                                                <li>
-                                                    <span className="pizza">
-                                                        pasta
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span className="pizza">
+                                                pasta
                                                            <i className="fa fa-close"></i>
-                                                    </span>
-                                                </li>
-                                            </ul>
+                                            </span>
+                                        </li>
+                                        
+                                    </ul>
 
-                                        </div>
-                                        <div className="card-footer">
-                                            <div className="date">
-                                                <p>01 May 2021</p>
+                                </div>
 
-                                            </div>
-                                            <div className="stars" >
-                                                <span className="fa fa-star checked"></span>
-                                                <span className="fa fa-star checked"></span>
-                                                <span className="fa fa-star checked"></span>
-                                                <span className="fa fa-star checked"></span>
-                                                <span className="fa fa-star"></span>
-                                            </div>
-                                        </div>
+                                <div className="card-footer ">
+                                    <div className="date">
+                                        <p>01 May 2021</p>
+
+                                    </div>
+                                    <div className="stars" >
+                                        <span className="fa fa-star checked"></span>
+                                        <span className="fa fa-star checked"></span>
+                                        <span className="fa fa-star checked"></span>
+                                        <span className="fa fa-star checked"></span>
+                                        <span className="fa fa-star"></span>
                                     </div>
                                 </div>
-                                <div className="col-md-4">
-                                    <div className="card">
-                                    <Link to="/title"><img className="card-img-top" src="images/fastfood.jpg" alt="Card cap" /></Link>
-                                        <div className="card-body">
-                                            <h3 className="card-title">
-                                                Lorem ispurm
+                            </article>
+                            <article>
+                                <Link to="/title"> <img className="card-img-top" src="images/fastfood.jpg" alt="Card cap" /></Link>
+                                <div className="text">
+                                    <h3 className="card-title">
+                                        Lorem ispurm
                                                 <br></br>
-                                                Heading
+                                        Heading
                                                 </h3>
-                                            <p className="card-text">Loram ispum is a paragraph which is used for dummy text purpose.</p>
-
-                                        </div>
-                                        <div className="card-btn">
-                                            <ul>
-                                                <li>
-                                                    <span className="pizza">
-                                                        pizza
+                                    <p className="card-text">Loram ispum is a paragraph which is used for dummy text purpose.</p>
+                                </div>
+                                <div className="card-btn">
+                                    <ul>
+                                        <li>
+                                            <span className="pizza">
+                                                pizza
                                                        <i className="fa fa-close"></i>
-                                                    </span>
+                                            </span>
 
-                                                </li>
-                                                <li>
-                                                    <span className="pizza">
-                                                        burger
+                                        </li>
+                                        <li>
+                                            <span className="pizza">
+                                                burger
                                                            <i className="fa fa-close"></i>
-                                                    </span>
-                                                </li>
-                                                <li>
-                                                    <span className="pizza">
-                                                        noodles
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span className="pizza">
+                                                noodles
                                                            <i className="fa fa-close"></i>
-                                                    </span>
-                                                </li>
-                                                <li>
-                                                    <span className="pizza">
-                                                        pasta
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span className="pizza">
+                                                pasta
                                                            <i className="fa fa-close"></i>
-                                                    </span>
-                                                </li>
-                                            </ul>
+                                            </span>
+                                        </li>
+                                        
+                                    </ul>
 
-                                        </div>
-                                        <div className="card-footer">
-                                            <div className="date">
-                                                <p>01 May 2021</p>
+                                </div>
 
-                                            </div>
-                                            <div className="stars" >
-                                                <span className="fa fa-star checked"></span>
-                                                <span className="fa fa-star checked"></span>
-                                                <span className="fa fa-star checked"></span>
-                                                <span className="fa fa-star checked"></span>
-                                                <span className="fa fa-star"></span>
-                                            </div>
-                                        </div>
+                                <div className="card-footer ">
+                                    <div className="date">
+                                        <p>01 May 2021</p>
+
+                                    </div>
+                                    <div className="stars" >
+                                        <span className="fa fa-star checked"></span>
+                                        <span className="fa fa-star checked"></span>
+                                        <span className="fa fa-star checked"></span>
+                                        <span className="fa fa-star checked"></span>
+                                        <span className="fa fa-star"></span>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
+                            </article>
+
+                        </main>
+
                     </section>
+
+
                 </div>
             </div>
-            <Footer/>
+            <Footer />
         </div>
     )
 }

@@ -110,8 +110,6 @@
     cursor: pointer;
 }
 
-
-
 .section-filter textarea {
     /* width: 464.82px; */
     margin-top: 3rem;
@@ -155,42 +153,12 @@
     overflow: hidden;
 }
 
-.food-cards .card {
-    border: none;
-    width: 100%;
-    background: #F9F9F9;
-    box-shadow: 6px 16px 40px 5px rgba(170, 170, 170, 0.2);
-    border-radius: 8px;
-}
-
-.food-cards .card .card-body .card-title {
-    font-family: 'Yellowtail';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 40px;
-    line-height: 55px;
-    text-align: center;
-    letter-spacing: 0.04em;
-    color: #000000;
-}
-
-.food-cards .card .card-body .card-text {
-    font-family: "Poppins";
-    font-style: normal;
-    font-weight: normal;
-    font-size: 15px;
-    line-height: 24px;
-    text-align: center;
-    letter-spacing: 0.1em;
-    color: #404040;
-}
-
 .food-cards .card .card-body .card-btn {
     width: 100%;
 }
 
 .card-btn ul {
-    width: 400px;
+    /* width: 400px; */
     float: left;
     margin-left: -1.6rem;
 }
@@ -254,46 +222,252 @@
     padding-left: 5px;
 }
 
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+    grid-gap: 20px;
+    align-items: stretch;
+}
 
+.grid>article {
+    background: #FFFFFF;
+    width: 100%;
+    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+}
+
+.grid>article img {
+    max-width: 100%;
+    height: 250px;
+}
+
+.grid .text {
+    padding: 20px;
+    text-align: center;
+}
+
+.grid .text h3 {
+    font-family: 'Yellowtail';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 55px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #000000;
+}
+
+.grid .text p {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    padding-top: 10px;
+    line-height: 24px;
+    padding-top: 10px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #404040;
+}
+
+.grid .card-btn {
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.grid .card-footer {
+    /* padding-top: 2rem; */
+    background-color: #FFFFFF;
+}
+
+.grid .text p a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #555;
+    font-family: 'Courgette', cursive;
+}
+
+.section-card {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
 
 /*--------------------------------- Responsive Media Quaries -----------------------------*/
 
-@media only screen and (min-width: 1600px) and (max-width: 1900px) {}
+@media only screen and (min-width: 1600px) and (max-width: 1900px) {
+    .container {
+        max-width: 1198px;
+        /* border: 1pt solid yellow */
+    }
+}
 
 @media only screen and (min-width: 1200px) and (max-width: 1599px) {
     .container {
         max-width: 1198px;
         /* border: 1pt solid yellow */
     }
-
 }
 
 @media only screen and (min-width: 1200px) {
     .container {
         max-width: 1190px;
     }
-    
+    .card-btn ul li {
+        margin-top: 10px;
+    }
+    .grid>article {
+        background: #FFFFFF;
+        height: 100%;
+        box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+    }
 }
 
 /* Medium Device = 1200px */
 
-@media only screen and (min-width: 992px) and (max-width: 1199px) {}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .container {
+        max-width: 1198px;
+        /* border: 1pt solid yellow */
+    }
+    .card-btn ul {
+        /* width: 400px; */
+        float: left;
+        /* margin-left: -2rem; */
+    }
+    .card-btn ul li {
+        margin-top: 10px;
+    }
+    .card-btn .pizza {
+        box-sizing: border-box;
+        border-radius: 20px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 18px;
+        letter-spacing: 0.04em;
+        padding: 7px 10px 7px 10px;
+        color: #FFFFFF;
+        background: #00205B;
+    }
+    .pizza i {
+        color: #FFFFFF;
+        padding-left: 5px;
+    }
+    .grid>article {
+        height: 100%;
+    }
+    .blog-section-image .river {
+        width: 100%;
+        height: 438px;
+        background: rgba(204, 204, 204, 0.4);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 8px;
+    }
+    .blog-section-image .logo {
+        width: 80%;
+        height: 80%;
+        z-index: 1000;
+        margin-left: 3rem;
+        margin-top: -28rem;
+    }
+}
 
 /* Tablet Device = 768px */
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-   
-    
+    .container {
+        max-width: 1198px;
+        /* border: 1pt solid yellow */
+    }
+    .card-btn ul {
+        width: 400px;
+        float: left;
+        margin-left: -2rem;
+    }
+    .food-cards .card {
+        border: none;
+        width: 350px;
+        background: #F9F9F9;
+        box-shadow: 6px 16px 40px 5px rgba(170, 170, 170, 0.2);
+        border-radius: 8px;
+    }
+    .grid>article {
+        height: 100%;
+    }
+    .blog-section-image .river {
+        width: 100%;
+        height: 438px;
+        background: rgba(204, 204, 204, 0.4);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 8px;
+    }
+    .blog-section-image .logo {
+        width: 80%;
+        height: 80%;
+        z-index: 1000;
+        margin-left: 2rem;
+        margin-top: -28rem;
+    }
 }
 
 /* Wide Mobile = 480px */
 
 @media only screen and (max-width: 767px) {
-    
+    .container {
+        max-width: 1198px;
+        /* border: 1pt solid yellow */
+    }
+    .grid>article {
+        height: 100%;
+    }
+    .grid>article .card-btn {
+        width: 100%;
+        text-align: center;
+    }
+    .card-btn ul {
+        text-align: center;
+    }
+    .grid>article .card-footer {
+        width: 100%;
+    }
+    .blog-section-image .river {
+        width: 100%;
+        height: 100%;
+        background: rgba(204, 204, 204, 0.4);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 8px;
+    }
+    .blog-section-image .logo {
+        width: 80%;
+        height: 80%;
+        z-index: 1000;
+        margin-left: 2rem;
+        margin-top: -28rem;
+    }
 }
 
 /* Small Device = 320px */
 
 @media only screen and (max-width: 479px) {
-   
+    .container {
+        max-width: 1198px;
+        /* border: 1pt solid yellow */
+    }
+    .card-btn ul li {
+        margin-top: 10px;
+    }
+    .blog-section-image .river {
+        width: 100%;
+        height: 100%;
+        background: rgba(204, 204, 204, 0.4);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 8px;
+    }
+    .blog-section-image .logo {
+        width: 80%;
+        height: 80%;
+        z-index: 1000;
+        margin-left: 2rem;
+        margin-top: -16rem;
+    }
 }
