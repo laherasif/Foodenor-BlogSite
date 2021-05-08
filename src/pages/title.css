@@ -97,7 +97,7 @@ section .blog-img {
 .blog-img img {
     width: 100%;
     border-radius: 8px;
-    height: 100%;
+    height: 289px;
 }
 
 .blog-img p {
@@ -241,4 +241,299 @@ section .blog-img {
     line-height: 37px;
     letter-spacing: 0.04em;
     color: #000000;
+}
+
+
+
+/*--------------------------------- Responsive Media Quaries -----------------------------*/
+
+@media only screen and (min-width: 1600px) and (max-width: 1900px) {
+    .container {
+        max-width: 1198px;
+        /* border: 1pt solid yellow */
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1599px) {
+    .container {
+        max-width: 1198px;
+        /* border: 1pt solid yellow */
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .container {
+        max-width: 1190px;
+    }
+  
+}
+
+/* Medium Device = 1200px */
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .title{
+        background: pink
+    }
+    .container {
+        max-width: 1198px;
+        /* border: 1pt solid yellow */
+    }
+
+   
+
+
+    
+}
+
+/* Tablet Device = 768px */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .title{
+        background: blue
+    }
+    .container {
+        max-width: 1198px;
+        /* border: 1pt solid yellow */
+    }
+
+    .blog-desc .blog-loram {
+        padding: 0px 20px 0px 0px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        text-align: left;
+        line-height: 33px;
+        letter-spacing: 0px;
+        color: #404040;
+    }
+
+    .blog-img img {
+        width: 100%;
+        border-radius: 8px;
+        height: 270px;
+    }
+
+    .blog-logo img {
+        width: 80%;
+        height: 50%;
+    }
+
+    .related-blog img {
+        width: 100%;
+        border-radius: 8px;
+    }
+    
+    
+   
+}
+
+/* Wide Mobile = 480px */
+
+@media only screen and (max-width: 767px) {
+    .title{
+        background: green
+    }
+    .container {
+        max-width: 1198px;
+        /* border: 1pt solid yellow */
+    }
+    .blog-desc .blog-loram {
+        padding: 0px 20px 0px 0px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        text-align: left;
+        line-height: 33px;
+        letter-spacing: 0px;
+        color: #404040;
+    }
+
+    .blog-img img {
+        width: 100%;
+        border-radius: 8px;
+        height: 100%;
+    }
+
+    .blog-logo img {
+        width: 80%;
+        height: 50%;
+    }
+
+    .related-blog img {
+        width: 100%;
+        border-radius: 8px;
+    }
+    .related-blog .related-data{
+        margin-bottom: 3rem
+    }
+
+    .related-blog p {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        text-align: left;
+        line-height: 24px;
+        padding-top: 2rem;
+        letter-spacing: 0.1em;
+        color: #404040;
+    }
+    
+    .related-blog h2 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 30px;
+        margin-top:-0.4rem;
+        text-align: left;
+        line-height: 37px;
+        letter-spacing: 0.04em;
+        color: #000000;
+    }
+
+    .heading-title p {
+        float: left;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        padding-top: 10px;
+        letter-spacing: 0.1em;
+        color: #050404;
+    }
+    
+    .heading-title h2 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 800;
+        float: left;
+        margin: -0.1rem 0px 0px -5.5rem;
+        font-size: 50px;
+        padding-top: 2rem;
+        line-height: 73px;
+        letter-spacing: 0.04em;
+        color: #000000;
+    }
+    .heading-title .title-starss {
+        float: left;
+        margin: 5rem 0px 0px -16.5rem;
+    }
+    .title-starss span {
+        padding-left: 10px;
+        font-size: 14px;
+        color: #cccccc;
+    }
+    
+    
+   
+}
+
+/* Small Device = 320px */
+
+@media only screen and (max-width: 479px) {
+    .title{
+        background: yellow
+    }
+    .container {
+        max-width: 1198px;
+        /* border: 1pt solid yellow */
+    }
+
+    
+    
+    .heading-title p {
+        float: left;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        padding-top: 10px;
+        margin: 0px 0px 0px -1.5rem;
+        letter-spacing: 0.1em;
+        color: #050404;
+    }
+    
+    .heading-title h2 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 800;
+        float: left;
+        /* margin: -0.1rem 0px 0px -8.5rem; */
+        font-size: 40px;
+        padding-top: 2rem;
+        line-height: 73px;
+        letter-spacing: 0.04em;
+        color: #000000;
+    }
+    .blog-desc .blog-loram {
+        padding: 0px 20px 0px 0px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        text-align: left;
+        line-height: 33px;
+        letter-spacing: 0px;
+        color: #404040;
+    }
+
+    .blog-img img {
+        width: 100%;
+        border-radius: 8px;
+        height: 100%;
+    }
+
+    .blog-logo img {
+        width: 80%;
+        height: 50%;
+    }
+
+    .related-blog img {
+        width: 100%;
+        height: 250px;
+        border-radius: 8px;
+    }
+    .related-blog .related-data{
+        margin-bottom: 3rem
+    }
+
+    .related-blog p {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        text-align: left;
+        line-height: 24px;
+        padding-top: 2rem;
+        letter-spacing: 0.1em;
+        color: #404040;
+    }
+    
+    .related-blog h2 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 30px;
+        margin-top:-0.4rem;
+        text-align: left;
+        line-height: 37px;
+        letter-spacing: 0.04em;
+        color: #000000;
+    }
+
+    .heading-title .title-starss {
+        float: left;
+        margin: 4rem 0px 0px -13.5rem;
+    }
+    .title-starss span {
+        padding-left: 10px;
+        font-size: 12px;
+        color: #cccccc;
+    }
+    
+   
 }

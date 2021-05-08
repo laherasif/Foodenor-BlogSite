@@ -129,18 +129,27 @@ export default function Title() {
                             <div className="row">
                                 <div className="col-md-4">
                                     <img src="images/selfi.jpg" alt="selfi"/>
+                                    <div className="related-data">
+
                                     <p>Sub Title</p>
                                     <h2>Blog Title</h2>
+                                    </div>
                                 </div>
                                 <div className="col-md-4">
                                     <img src="images/selfi.jpg" alt="selfi"/>
+                                    <div className="related-data">
+
                                     <p>Sub Title</p>
                                     <h2>Blog Title</h2>
+                                    </div>
                                 </div>
                                 <div className="col-md-4">
                                     <img src="images/selfi.jpg" alt="selfi"/>
+                                    <div className="related-data">
+
                                     <p>Sub Title</p>
                                     <h2>Blog Title</h2>
+                                    </div>
                                 </div>
                             </div>
                         </div>
