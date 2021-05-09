@@ -526,6 +526,10 @@ section .blog-img {
         font-size: 12px;
         color: #cccccc;
     }
+
+    .pizza-list ul li{
+        margin-top: 20px;
+    }
     
    
 }
