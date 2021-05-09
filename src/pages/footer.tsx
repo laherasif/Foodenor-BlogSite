@@ -15,8 +15,8 @@ export default function Footer() {
                                     <img src={logo} alt="food_logo" />
                                     <h6 >FOOFIENOR </h6>
                                 </div>
-                                <p className="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
-                                <p className="paragraph">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <span className="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit,</span>
+                                <span className="paragraphs">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</span>
 
 
                             </div>

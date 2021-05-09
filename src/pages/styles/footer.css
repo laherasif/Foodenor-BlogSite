@@ -14,9 +14,14 @@
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
-    padding-top: 10px;
+    padding-top: 20px;
 }
-
+#footer .footer__about .paragraphs {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    padding-top: 20px;
+}
 #footer .footer__about .footer__logo h6 {
     font-family: 'Poppins';
     font-style: normal;

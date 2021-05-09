@@ -13,7 +13,7 @@ export default function Title() {
                     <div className="row">
                         <div className="col-md-12">
                             <div className="heading-title">
-                                <p>
+                                <p className="heading-para">
                                     Sub Title
                           </p>
                                 <h2>Blog Title</h2>

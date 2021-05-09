@@ -26,7 +26,7 @@
     padding: 2rem 0px 0px 5rem;
 }
 
-.heading-title p {
+.heading-title .heading-para {
     float: left;
     font-family: 'Poppins';
     font-style: normal;
@@ -387,7 +387,7 @@ section .blog-img {
         color: #000000;
     }
 
-    .heading-title p {
+    .heading-title .heading-para {
         float: left;
         font-family: 'Poppins';
         font-style: normal;
@@ -436,7 +436,7 @@ section .blog-img {
 
     
     
-    .heading-title p {
+    .heading-title .heading-para {
         float: left;
         font-family: 'Poppins';
         font-style: normal;
