@@ -51,7 +51,7 @@ export default function Home() {
           </section>
 
 
-          <main className="grid">
+          <main className="grid mt-4">
             <article id="first-card">
               <div className="discover">
                 <h1>
@@ -202,7 +202,6 @@ export default function Home() {
                   </div>
             </article>
           </main>
-
 
           {/* <section>
             <div className="section-discover">

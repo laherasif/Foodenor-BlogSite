@@ -48,8 +48,8 @@ export default function Footer() {
                                 <h6>NEWSLETTER</h6>
                                 <div className="subscribe-form">
                                 <form >
-                                    <input type="text" placeholder="Email Us"/>
-                                    <button><i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
+                                    <input type="text"  placeholder="Email Us"/>
+                                    <button><i className="fa fa-long-arrow-right" aria-hidden="true"></i></button>
                                 </form>
                             </div>
                                 {/* <form  >

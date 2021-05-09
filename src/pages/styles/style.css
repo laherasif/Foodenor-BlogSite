@@ -532,9 +532,7 @@ body {
         max-width: 1198px;
         /* border: 1pt solid yellow */
     }
-     .food{
-        background:green;
-    }
+    
     
        .grid #first-card{
     border: none;
@@ -551,10 +549,7 @@ body {
     width: 100%;
     padding-left:-200px;
 }
-.heading-buttons ul   {
-    border:1pt solid yellow;
 
-}
 
 .heading-buttons ul li  {
    /* margin-right:3rem; */

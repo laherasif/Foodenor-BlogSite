@@ -158,18 +158,21 @@ letter-spacing: 0.1em;
  #footer__newslatter .subscribe-form input {
   width: 70%;
   padding: 14px 28px;
-  border: 1px solid #2E2E2E;
+   border: 3px solid #00205B;
   color: #fff;
 }
  #footer__newslatter .subscribe-form button {
     position: absolute;
-    content: "\2192";
+    height:53px;
     font-family: 'Poppins', sans-serif;
     font-size: 1.2em;
     text-align: center;
     right: 3.5rem;
     width:90px;
-    background: #00205B;
+    background:#00205B;
+   border: 3px solid #00205B;
+box-sizing: border-box;
+border-radius: 8px;
     padding: 13px 20px;
     top: 25%;
     border-radius:4px;
@@ -220,10 +223,22 @@ letter-spacing: 0.1em;
         max-width: 1198px;
         /* border: 1pt solid yellow */
     }
-    #footer{
-        background:green
-        
-    }
+    
+    #footer__newslatter .subscribe-form input {
+  width: 100%;
+  padding: 14px 28px;
+   border-radius: 5px;
+  border:2pt solid #00205B;
+  color: #fff;
+}
+ #footer__newslatter .subscribe-form button {
+    position: absolute;
+    right: 0;
+    padding: 13px 20px;
+    background: #00205B;
+    border-radius: 0px 8px 8px 0px;
+    top: 1.3rem;
+}
   
 }
 
@@ -234,10 +249,24 @@ letter-spacing: 0.1em;
         max-width: 1198px;
         /* border: 1pt solid yellow */
     }
-    #footer{
-        background:blue
+    
+#footer__newslatter .subscribe-form input {
+  width: 100%;
+  padding: 14px 28px;
+   border-radius: 5px;
+  border:3pt solid #00205B;
+  color: #fff;
+}
+ #footer__newslatter .subscribe-form button {
+    position: absolute;
+    right: 0;
+    width:120px;
+    padding: 13px 20px;
+    background: #00205B;
+    border-radius: 0px 8px 8px 0px;
+    top: 1.3rem;
+}
 
-    }
 }
   
 
@@ -247,10 +276,6 @@ letter-spacing: 0.1em;
     .container {
         max-width: 1198px;
         /* border: 1pt solid yellow */
-    }
-   #footer{
-        background:pink
-        
     }
     #footer__newslatter{
         text-align:left
@@ -273,6 +298,7 @@ letter-spacing: 0.1em;
     width:120px;
     padding: 13px 20px;
     background: #00205B;
+    border-radius: 0px 8px 8px 0px;
     top: 1.3rem;
 }
 #footer__newslatter .subscribe-form button i {
