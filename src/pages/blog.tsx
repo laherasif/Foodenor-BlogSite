@@ -27,7 +27,7 @@ export default function Blog() {
 
                     <section>
                         <div className="row">
-                            <div className="col-lg-7 col-md-7 ">
+                            <div className="col-lg-7 col-xl-7 col-md-7 ">
                                 <div className="blog-section-image">
                                     <img src={food} alt="lunch" className="river" />
                                     <img src={logo} className="logo" alt="food_logo" />
@@ -35,7 +35,7 @@ export default function Blog() {
 
                                 </div>
                             </div>
-                            <div className="col-lg-5 col-md-5">
+                            <div className="col-lg-5 col-xl-5 col-md-5">
 
                                 <div className="section-filter">
                                     <form>

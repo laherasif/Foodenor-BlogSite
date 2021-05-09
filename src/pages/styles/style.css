@@ -264,19 +264,20 @@ body {
     padding-top: 5px;
     color: #BA0C2F;
 }
-.grid #first-card{
+
+.grid #first-card {
     border: none;
     background: none;
-    width:300px;
-    box-shadow:none;
-}
-.grid #second-card{
-    width:420px;
-    margin-left:-4rem;
-    
+    width: 300px;
+    box-shadow: none;
 }
 
-#third-card{
+.grid #second-card {
+    width: 420px;
+    margin-left: -4rem;
+}
+
+#third-card {
     border: none;
     background: rgba(253, 145, 145, 0.1);
 }
@@ -328,6 +329,14 @@ body {
     background: #902E92;
     border-radius: 8px 0px 0px 8px;
 }
+ .two {
+    background: #A40000;
+    border-radius: 8px 0px 0px 8px;
+}
+ .three {
+    background: #154200;
+    border-radius: 8px 0px 0px 8px;
+}
 
 .customer_name {
     border-radius: 80px;
@@ -339,9 +348,11 @@ body {
     font-size: 90px;
 }
 
-#para{
-   
-    border:1pt soid blue
+.customer_name #para {
+    font-size: 50px;
+    width: 60px;
+    height: 75;
+    text-align: center
 }
 
 .review-data .title h4 {
@@ -364,7 +375,7 @@ body {
     color: #404040;
 }
 
-#review_show{
+#review_show {
     height: 120px;
 }
 
@@ -422,7 +433,7 @@ body {
     color: #FFFAFA;
 }
 
- #review-Don {
+#review-Don {
     position: absolute;
     top: 44.5%;
     left: 5px;
@@ -433,7 +444,7 @@ body {
     border-radius: 8px 0px 0px 8px;
 }
 
- #review-Don .para {
+#review-Don .para {
     position: absolute;
     width: 70.01px;
     height: 74.48px;
@@ -521,251 +532,205 @@ body {
     .container {
         max-width: 1190px;
     }
-  
 }
 
 /* Medium Device = 1200px */
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-   
     .container {
         max-width: 1198px;
         /* border: 1pt solid yellow */
     }
-    
-    
-       .grid #first-card{
-    border: none;
-    background: none;
-    width:100%;
-    box-shadow:none;
-}
-.grid #second-card{
-    width:100%;
-    margin-left:0rem;
-    
-}
-.heading-buttons {
-    width: 100%;
-    padding-left:-200px;
-}
-
-
-.heading-buttons ul li  {
-   /* margin-right:3rem; */
-   /* width:20px; */
-   text-align:left;
-   margin-top:10px;
-   margin-left:-30px ;
-
-}
-
-.review-data .title-star {
-    /* width: 170px; */
-    margin-top:12px;
-}
-
-.review-data p{
-    padding-top:10px;
-}
-
-   
-
-
-    
+    .grid #first-card {
+        border: none;
+        background: none;
+        width: 100%;
+        box-shadow: none;
+    }
+    .grid #second-card {
+        width: 100%;
+        margin-left: 0rem;
+    }
+    .heading-buttons {
+        width: 100%;
+        padding-left: -200px;
+    }
+    .heading-buttons ul li {
+        /* margin-right:3rem; */
+        /* width:20px; */
+        text-align: left;
+        margin-top: 10px;
+        margin-left: -30px;
+    }
+    .review-data .title-star {
+        /* width: 170px; */
+        margin-top: 12px;
+    }
+    .review-data p {
+        padding-top: 10px;
+    }
 }
 
 /* Tablet Device = 768px */
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  
     .container {
         max-width: 1198px;
         /* border: 1pt solid yellow */
     }
-    
-       .grid #first-card{
-    border: none;
-    background: none;
-    width:100%;
-    box-shadow:none;
-}
-.grid #second-card{
-    width:100%;
-    margin-left:0rem;
-    
-}
-.heading-logo {
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    margin-top:40px;
-}
-.heading-logo{
-    width:120%;
-    height:80%;
-    
-}
-
-.heading-buttons{
-    width:100%
-}
-
-.heading-buttons ul li .btn{
-    width:120px;
-   
-}
-
-.heading h2{
-    font-size:2.3rem;
-}
-.heading p{
-    font-size:18px
-}
-.heading .loram{
-    margin-top:-20px;
-    font-size:14px
-
-}
-.card-body .explore-more p {
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 10px;
-    line-height: 30px;
-    padding-left: 11px;
-    padding-top: 5px;
-    color: #BA0C2F;
-}
-
-.button {
-    display: inline-block;
-    font-family: 'Poppins', sans-serif;
-    position: relative;
-    font-weight: 600;
-    padding: 0.8em 1.4em;
-    padding-right: 4.7em;
-    border: none;
-    color: white;
-}
-
-.button:before, .button:after {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    padding-top: inherit;
-    padding-bottom: inherit;
-    width: 2.5em;
-    content: "\2192";
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.2em;
-    text-align: center;
-}
-
-.button:before {
-    background: #BA0C2F;
-}
-
-.button {
-    margin-top: 0.5rem;
-    padding-top: 1rem;
-    width: 100%;
-    height: 4.4em;
-    border: 3px solid #BA0C2F;
-    box-sizing: border-box;
-    border-radius: 6px;
-}
-
-.arrow {
-    background: #ffffff;
-    color: #BA0C2F;
-    text-decoration: none;
-}
-
-.arrow:after {
-    content: "\2192";
-    color: #ffffff;
-}
-
-.review-data .title-star {
-    /* width: 170px; */
-    margin-top:18px;
-}
-
-.review-data p{
-    padding-top:10px;
-}
-    
-   
+    .grid #first-card {
+        border: none;
+        background: none;
+        width: 100%;
+        box-shadow: none;
+    }
+    .grid #second-card {
+        width: 100%;
+        margin-left: 0rem;
+    }
+    .heading-logo {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        margin-top: 40px;
+    }
+    .heading-logo {
+        width: 120%;
+        height: 80%;
+    }
+    .heading-buttons {
+        width: 100%
+    }
+    .heading-buttons ul li .btn {
+        width: 120px;
+    }
+    .heading h2 {
+        font-size: 2.3rem;
+    }
+    .heading p {
+        font-size: 18px
+    }
+    .heading .loram {
+        margin-top: -20px;
+        font-size: 14px
+    }
+    .card-body .explore-more p {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 10px;
+        line-height: 30px;
+        padding-left: 11px;
+        padding-top: 5px;
+        color: #BA0C2F;
+    }
+    .button {
+        display: inline-block;
+        font-family: 'Poppins', sans-serif;
+        position: relative;
+        font-weight: 600;
+        padding: 0.8em 1.4em;
+        padding-right: 4.7em;
+        border: none;
+        color: white;
+    }
+    .button:before, .button:after {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        padding-top: inherit;
+        padding-bottom: inherit;
+        width: 2.5em;
+        content: "\2192";
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.2em;
+        text-align: center;
+    }
+    .button:before {
+        background: #BA0C2F;
+    }
+    .button {
+        margin-top: 0.5rem;
+        padding-top: 1rem;
+        width: 100%;
+        height: 4.4em;
+        border: 3px solid #BA0C2F;
+        box-sizing: border-box;
+        border-radius: 6px;
+    }
+    .arrow {
+        background: #ffffff;
+        color: #BA0C2F;
+        text-decoration: none;
+    }
+    .arrow:after {
+        content: "\2192";
+        color: #ffffff;
+    }
+    .review-data .title-star {
+        /* width: 170px; */
+        margin-top: 18px;
+    }
+    .review-data p {
+        padding-top: 10px;
+    }
 }
 
 /* Wide Mobile = 480px */
 
 @media only screen and (max-width: 767px) {
-  
     .container {
         max-width: 1198px;
         /* border: 1pt solid yellow */
     }
-    
-        .grid #first-card{
-    border: none;
-    background: none;
-    width:100%;
-    box-shadow:none;
-}
-.grid #second-card{
-    width:100%;
-    margin-left:0rem;
-    
-}
-.review-data .title-star {
-    /* width: 170px; */
-    margin-top:18px;
-}
-
-.review-data p{
-    padding-top:10px;
-}
-   
-    
-   
+    .grid #first-card {
+        border: none;
+        background: none;
+        width: 100%;
+        box-shadow: none;
+    }
+    .grid #second-card {
+        width: 100%;
+        margin-left: 0rem;
+    }
+    .review-data .title-star {
+        /* width: 170px; */
+        margin-top: 18px;
+    }
+    .review-data p {
+        padding-top: 10px;
+    }
 }
 
 /* Small Device = 320px */
 
 @media only screen and (max-width: 479px) {
-   
     .container {
         max-width: 1198px;
         /* border: 1pt solid yellow */
     }
-    .food{
-    
-        margin:0px;
-        padding:0px;
+    .food {
+        margin: 0px;
+        padding: 0px;
     }
-    .grid #first-card{
-    border: none;
-    background: none;
-    width:100%;
-    box-shadow:none;
-}
-.grid #second-card{
-    width:100%;
-    /* margin-left:-4rem; */
-    
-}
-
-
-.heading-logo {
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-}
-.heading-logo{
-    width:100%;
-    height:100%;
-}
+    .grid #first-card {
+        border: none;
+        background: none;
+        width: 100%;
+        box-shadow: none;
+    }
+    .grid #second-card {
+        width: 100%;
+        /* margin-left:-4rem; */
+    }
+    .heading-logo {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+    .heading-logo {
+        width: 100%;
+        height: 100%;
+    }
 }

@@ -20,7 +20,7 @@ export default function About() {
                     <div className="about-section">
                         <section className="first-section">
                             <div className="row">
-                                <div className="col-lg-6 col-md-6">
+                                <div className="col-xl-6 col-lg-6 col-md-6">
                                     <div className="section-vision">
                                         <h2>Our Vision</h2>
                                         <p className="loram">
@@ -31,7 +31,7 @@ export default function About() {
                       </p>
                                     </div>
                                 </div>
-                                <div className="col-lg-6 col-md-6">
+                                <div className="col-xl-6 col-lg-6 col-md-6">
                                     <div className="section-image">
                                         <img src={bread} alt="lunch" />
 
@@ -41,13 +41,13 @@ export default function About() {
                         </section>
                         <section className="second-section">
                             <div className="row">
-                                <div className="col-lg-6 col-md-6">
+                                <div className="col-xl-6 col-lg-6 col-md-6">
                                     <div className="section-image">
                                         <img src={bread} alt="lunch" />
 
                                     </div>
                                 </div>
-                                <div className="col-lg-6 col-md-6">
+                                <div className="col-xl-6 col-lg-6 col-md-6">
                                     <div className="section-vision" >
                                         <h2>Our Approch</h2>
                                         <p className="loram">
@@ -63,7 +63,7 @@ export default function About() {
                         </section>
                         <section className="third-section">
                             <div className="row">
-                                <div className="col-lg-6 col-md-6">
+                                <div className="col-xl-6 col-lg-6 col-md-6">
                                     <div className="section-vision">
                                         <h2>Our Process</h2>
                                         <p className="loram">

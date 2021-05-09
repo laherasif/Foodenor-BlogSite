@@ -9,7 +9,7 @@ export default function Contributation() {
             <div className="contribute">
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-12 col-md-12">
+                        <div className="col-xl-12 col-lg-12 col-md-12">
                             <div className="title">
                                 <h2>How to Contribute</h2>
                                 <p >
@@ -20,7 +20,7 @@ export default function Contributation() {
 
                     <section>
                         <div className="row">
-                            <div className="col-lg-6 col-md-6">
+                            <div className="col-xl-6 col-lg-6 col-md-6">
                                 <div className="section-vision">
                                     <h2>Give us a Tip</h2>
                                     <p className="loram">
@@ -31,7 +31,7 @@ export default function Contributation() {
                       </p>
                                 </div>
                             </div>
-                            <div className="col-lg-6 col-md-6">
+                            <div className="col-xl-6 col-lg-6 col-md-6">
                                 <div className="section-image">
                                     <img src={bread} alt="lunch" />
 
@@ -41,13 +41,13 @@ export default function Contributation() {
                     </section>
                     <section>
                         <div className="row">
-                            <div className="col-lg-6 col-md-6">
+                            <div className="col-xl-6 col-lg-6 col-md-6">
                                 <div className="section-image">
                                     <img src={bread} alt="lunch" />
 
                                 </div>
                             </div>
-                            <div className="col-lg-6 col-md-6">
+                            <div className="col-xl-6 col-lg-6 col-md-6">
                                 <div className="section-write" style={{ paddingLeft: '30px' }}>
                                     <h2>Write with us </h2>
                                     <p className="loram">

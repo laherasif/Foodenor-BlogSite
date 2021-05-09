@@ -103,8 +103,8 @@ export default function Home() {
                         <div className="input-group-prepend">
                           <span className="input-group-text" >
                             <div className="customer_name" >
-                              <p id="para" style={{fontSize:'50px' , width:'60px', height:'75' , textAlign:'center'}}>
-                                J
+                              <p id="para">
+                                F
                                 </p>
                             </div>
                           </span>
@@ -133,9 +133,9 @@ export default function Home() {
                       </div>
                       <div className="input-group input-group-lg  mb-2">
                         <div className="input-group-prepend">
-                          <span className="input-group-text" >
+                          <span className="input-group-text two" >
                             <div className="customer_name" >
-                            <p id="para" style={{fontSize:'50px' , paddingBottom:'10px'}}>
+                            <p id="para">
                                 D
                                 </p>
                             </div>
@@ -165,9 +165,9 @@ export default function Home() {
                       </div>
                       <div className="input-group  input-group-lg">
                         <div className="input-group-prepend">
-                          <span className="input-group-text" >
+                          <span className="input-group-text three" >
                             <div className="customer_name" >
-                              <p id="para" style={{fontSize:'50px' , width:'60px', height:'75' , textAlign:'center'}}>
+                              <p id="para" >
                                 G
                                 </p>
                             </div>

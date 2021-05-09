@@ -23,35 +23,35 @@ export default function Contact() {
                     <div className="form-data">
                         <div className="form">
                             <div className="row">
-                                <div className="col-lg-7 col-md-12 ">
+                                <div className="col-lg-7 col-xl-7 col-md-12 ">
                                     <div className="contact-forms">
                                         <h2>Send us a message</h2>
                                         <div className="form-group row">
-                                            <div className="col-lg-6 col-md-12">
+                                            <div className="col-lg-6 col-xl-6 col-md-12">
                                                 <input type="text" placeholder="enter value" className="form-control" name="" />
                                             </div>
-                                            <div className="col-lg-6 col-md-12">
+                                            <div className="col-lg-6 col-xl-6 col-md-12">
                                                 <input type="text" placeholder="enter value" className="form-control" name="" />
                                             </div>
                                         </div>
                                         <div className="form-group row">
-                                            <div className="col-lg-6 col-md-12">
+                                            <div className="col-lg-6 col-xl-6 col-md-12">
                                                 <input type="text" placeholder="enter value" className="form-control" name="" />
                                             </div>
-                                            <div className="col-lg-6 col-md-12">
+                                            <div className="col-lg-6 col-xl-6 col-md-12">
                                                 <input type="text" placeholder="enter value" className="form-control" name="" />
                                             </div>
                                         </div>
                                         <div className="form-group row">
 
-                                            <div className="col-md-12">
+                                            <div className="col-xl-12 col-lg-12 col-md-12">
                                                 <textarea placeholder="enter value" className="form-control" name=""></textarea>
                                             </div>
                                         </div>
 
                                         <div className="form-group row">
 
-                                            <div className="col-md-12">
+                                            <div className="col-xl-12 col-lg-12 col-md-12">
                                                 <div className="sub-btn">
 
                                                 <sapn className="sub">Submit</sapn>
