@@ -138,7 +138,7 @@ body {
 
 .heading-buttons ul li .btn {
     height: 60px;
-    width: 110px;
+    width: 120px;
     padding-top: 20px;
     font-weight: 600;
     font-family: 'Poppins';
@@ -588,9 +588,7 @@ body {
         max-width: 1198px;
         /* border: 1pt solid yellow */
     }
-    .food{
-        background:blue;
-    }
+    
        .grid #first-card{
     border: none;
     background: none;
@@ -715,9 +713,7 @@ body {
         max-width: 1198px;
         /* border: 1pt solid yellow */
     }
-    .food{
-        background:red;
-    }
+    
         .grid #first-card{
     border: none;
     background: none;
@@ -751,7 +747,7 @@ body {
         /* border: 1pt solid yellow */
     }
     .food{
-        background:yellow;
+    
         margin:0px;
         padding:0px;
     }

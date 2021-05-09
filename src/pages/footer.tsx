@@ -21,7 +21,7 @@ export default function Footer() {
 
                             </div>
                         </div>
-                        <div className="col-lg-2 col-md-3 col-sm-5">
+                        <div className="col-lg-2 col-md-3 ">
                             <div className="footer__widget">
                                 <h6>CATAGORIES</h6>
                                 <ul >
@@ -43,13 +43,19 @@ export default function Footer() {
                                 </ul>
                             </div>
                         </div>
-                        <div className="col-lg-4 col-md-8 ">
+                        <div className="col-lg-4 col-md-6 ">
                             <div id="footer__newslatter">
                                 <h6>NEWSLETTER</h6>
-                                <form  >
+                                <div className="subscribe-form">
+                                <form >
+                                    <input type="text" placeholder="Email Us"/>
+                                    <button><i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
+                                </form>
+                            </div>
+                                {/* <form  >
                                     <input type="text" placeholder="Email Us" />
                                     <button className="site-btn"><i className="fa fa-long-arrow-right"></i></button>
-                                </form>
+                                </form> */}
                                 <div id="footer__social">
                                     <Link to="/" className="links"><i className="fa fa-linkedin" /></Link>
                                     <Link to="/" className="links"><i className="fa fa-twitter" /></Link>
